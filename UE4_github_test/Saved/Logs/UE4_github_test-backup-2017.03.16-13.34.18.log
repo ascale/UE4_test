@@ -1,0 +1,1077 @@
+﻿Log file open, 03/16/17 13:06:41
+LogInit:Display: Running engine for game: UE4_github_test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1317841089) SRandInit(1317841089).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088937
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.12.0(build = 347531) feature version = 0. Client runs version (prod = 1).1.12.0(build = 347531) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 65.3mm
+OCULUS: Debug: [SharedMemory] Creating factory
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.16-12.06.42:747][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.16-12.06.42:747][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.16-12.06.42:756][  0]LogInit: Computer: DESKTOP-3ETNB2S
+[2017.03.16-12.06.42:756][  0]LogInit: User: AlexCaro
+[2017.03.16-12.06.42:756][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.03.16-12.06.42:756][  0]LogInit: High frequency timer resolution =3.222654 MHz
+[2017.03.16-12.06.42:756][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2017.03.16-12.06.42:756][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.16-12.06.42:756][  0]LogMemory: Process Physical Memory: 268.88 MB used, 268.88 MB peak
+[2017.03.16-12.06.42:756][  0]LogMemory: Process Virtual Memory: 269.41 MB used, 269.41 MB peak
+[2017.03.16-12.06.42:756][  0]LogMemory: Physical Memory: 6745.92 MB used,  9465.75 MB free, 16211.66 MB total
+[2017.03.16-12.06.42:756][  0]LogMemory: Virtual Memory: 687.55 MB used,  9465.75 MB free, 134217728.00 MB total
+[2017.03.16-12.06.42:814][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.16-12.06.43:397][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.16-12.06.44:032][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.16-12.06.44:032][  0]LogD3D11RHI:       4059/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.16-12.06.44:033][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.16-12.06.44:033][  0]LogD3D11RHI:       0/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.16-12.06.44:033][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.16-12.06.44:037][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.16-12.06.44:037][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.16-12.06.44:037][  0]LogWindows: EnumDisplayDevices:
+[2017.03.16-12.06.44:037][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.16-12.06.44:038][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.16-12.06.44:038][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.16-12.06.44:038][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.16-12.06.44:038][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.16-12.06.44:038][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.16-12.06.44:038][  0]LogD3D11RHI:   Driver Version: 378.78 (internal:21.21.13.7878, unified:378.78)
+[2017.03.16-12.06.44:038][  0]LogD3D11RHI:      Driver Date: 2-23-2017
+[2017.03.16-12.06.44:038][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.16-12.06.44:648][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.16-12.06.44:687][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.16-12.06.44:733][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../github/UE4_test/UE4_github_test/Intermediate/Shaders/WorkingDirectory/12020/).
+[2017.03.16-12.06.44:733][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex & Caro/AppData/Local/Temp/UnrealShaderWorkingDir/15361F7B4DA532F70714AEB75F9C83F4/'.
+[2017.03.16-12.06.44:733][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.16-12.06.45:734][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.16-12.06.45:773][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.16-12.06.45:812][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.16-12.06.45:851][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.16-12.06.45:890][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.16-12.06.45:929][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.16-12.06.45:968][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.16-12.06.46:007][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.16-12.06.46:037][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.16-12.06.46:075][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.16-12.06.46:113][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.16-12.06.46:151][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.16-12.06.46:189][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.16-12.06.46:227][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.16-12.06.46:265][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.16-12.06.46:341][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.16-12.06.46:341][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.16-12.06.46:365][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.16-12.06.46:437][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.16-12.06.46:464][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.16-12.06.46:502][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.16-12.06.46:539][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.16-12.06.46:578][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.16-12.06.46:616][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.16-12.06.46:616][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.16-12.06.46:889][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.16-12.06.46:946][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Alex & Caro/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.16-12.06.46:946][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alex & Caro/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.16-12.06.46:946][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../github/UE4_test/UE4_github_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.16-12.06.46:946][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.16-12.06.46:946][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../github/UE4_test/UE4_github_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.16-12.06.46:946][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.16-12.06.46:963][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.16-12.06.46:975][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex & Caro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.16-12.06.46:984][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.16-12.06.46:984][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.16-12.06.46:984][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.16-12.06.47:199][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.16-12.06.47:201][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.16-12.06.47:358][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.16-12.06.47:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.16-12.06.47:413][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.16-12.06.47:413][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.16-12.06.47:413][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.16-12.06.47:852][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: ue4_github_test, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 268766832
+[2017.03.16-12.06.47:890][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.03.16-12.06.47:921][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.017320 seconds
+[2017.03.16-12.06.47:925][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.16-12.06.47:925][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.16-12.06.47:925][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.16-12.06.47:964][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.16-12.06.49:130][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.16-12.06.49:181][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.16-12.06.49:490][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.16-12.06.49:742][  0]SourceControl: Info Source control is disabled
+[2017.03.16-12.06.49:772][  0]SourceControl: Info Source control is disabled
+[2017.03.16-12.06.49:801][  0]SourceControl: Info Source control is disabled
+[2017.03.16-12.06.49:828][  0]SourceControl: Info Source control is disabled
+[2017.03.16-12.06.50:604][  0]LogEngine: Initializing Engine...
+[2017.03.16-12.06.50:604][  0]LogHMD: Oculus plugin initialized. Version: 4.15.0-3299760+++UE4+Release-4.15, LibOVR: 1.12.0, SDK: 1.10.0, built Feb 14 2017, 02:10:09
+[2017.03.16-12.06.50:706][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.03.16-12.06.50:706][  0]OCULUS: Info: IAD changed to 65.3mm
+[2017.03.16-12.06.50:781][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.16-12.06.50:795][  0]LogInit: XAudio2 using 'PHI42PFL3605-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-12.06.50:804][  0]LogInit: FAudioDevice initialized.
+[2017.03.16-12.06.50:833][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Alex & Caro/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.16-12.06.50:843][  0]LogInit: Texture streaming: Enabled
+[2017.03.16-12.06.50:902][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.16-12.06.50:960][  0]LogInit: Transaction tracking system initialized
+[2017.03.16-12.06.51:168][  0]BlueprintLog: New page: Editor Load
+[2017.03.16-12.06.51:817][  0]LocalizationService: Info Localization service is disabled
+[2017.03.16-12.06.52:266][  0]LogConsoleResponse:Display: 
+[2017.03.16-12.06.52:369][  0]LogFileCache: Scanning file cache for directory 'E:/github/UE4_test/UE4_github_test/Content/' took 0.01s
+[2017.03.16-12.06.52:369][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.16-12.06.52:369][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.16-12.06.53:025][  0]SourceControl: Info Source control is disabled
+[2017.03.16-12.06.53:025][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.16-12.06.53:026][  0]LightingResults: New page: Lighting Build
+[2017.03.16-12.06.53:052][  0]MapCheck: New page: Map Check
+[2017.03.16-12.06.53:052][  0]LightingResults: New page: Lighting Build
+[2017.03.16-12.06.53:237][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.16-12.06.53:238][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.16-12.06.53:241][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.16-12.06.53:244][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.16-12.06.53:271][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.324ms to complete.
+[2017.03.16-12.06.53:271][  0]LogFileHelpers: Loading map 'Template_Default' took 0.245
+[2017.03.16-12.06.53:321][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.16-12.06.53:413][  0]LogCollectionManager: Loaded 0 collections in 0.000635 seconds
+[2017.03.16-12.06.53:476][  0]LogFileCache: Scanning file cache for directory 'E:/github/UE4_test/UE4_github_test/Saved/Collections/' took 0.01s
+[2017.03.16-12.06.53:476][  0]LogFileCache: Scanning file cache for directory 'E:/github/UE4_test/UE4_github_test/Content/Developers/AlexCaro/Collections/' took 0.01s
+[2017.03.16-12.06.53:476][  0]LogFileCache: Scanning file cache for directory 'E:/github/UE4_test/UE4_github_test/Content/Collections/' took 0.01s
+[2017.03.16-12.06.53:476][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.16-12.06.53:484][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2244 classes and 450 folders.
+[2017.03.16-12.06.53:487][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.16-12.06.53:487][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.16-12.06.53:524][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.16-12.06.53:556][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.16-12.06.53:583][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.16-12.06.53:619][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.16-12.06.53:624][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.16-12.06.53:677][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.16-12.06.53:677][  0]LogLoad: (Engine Initialization) Total time: 12.51 seconds
+[2017.03.16-12.06.53:677][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.03.16-12.06.53:677][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.16-12.06.53:686][  0]LogOcInput: OculusInput pre-init called
+[2017.03.16-12.06.53:697][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.12.0
+[2017.03.16-12.06.53:718][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.16-12.06.53:719][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.16-12.06.53:723][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.16-12.06.53:728][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.16-12.06.53:850][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.03.16-12.06.53:942][  1]LogAssetRegistry: Asset discovery search completed in 6.0739 seconds
+[2017.03.16-12.06.53:942][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.03.16-12.06.53:942][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.03.16-12.06.56:112][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.16-12.10.29:634][338]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.16-12.11.05:945][890]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.16-12.11.06:973][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_ambient_occlusion.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.06:991][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:014][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:014][890]LoadErrors:Error: Error /Game/substance/floor/Wood_048_Old_INST_ambient_occlusion : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:014][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:014][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:014][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST.uasset.
+[2017.03.16-12.11.07:014][890]LoadErrors:Error: Error /Game/substance/floor/Wood_048_Old_INST : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/wood_048_old.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/wood_048_old.uasset.
+[2017.03.16-12.11.07:015][890]LoadErrors:Error: Error /Game/substance/floor/wood_048_old : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/wood_048_old.uasset.
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST.uasset.
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST.uasset.
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST.uasset.
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:015][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:016][890]LoadErrors:Error: Error /Game/substance/floor/Wood_048_Old_MAT : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_basecolor.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_basecolor.uasset.
+[2017.03.16-12.11.07:016][890]LoadErrors:Error: Error /Game/substance/floor/Wood_048_Old_INST_basecolor : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:016][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_basecolor.uasset.
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_metallic.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_metallic.uasset.
+[2017.03.16-12.11.07:017][890]LoadErrors:Error: Error /Game/substance/floor/Wood_048_Old_INST_metallic : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:017][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_metallic.uasset.
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_normal.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_normal.uasset.
+[2017.03.16-12.11.07:018][890]LoadErrors:Error: Error /Game/substance/floor/Wood_048_Old_INST_normal : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:018][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_normal.uasset.
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_roughness.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_roughness.uasset.
+[2017.03.16-12.11.07:019][890]LoadErrors:Error: Error /Game/substance/floor/Wood_048_Old_INST_roughness : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_INST_roughness.uasset.
+[2017.03.16-12.11.07:019][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:020][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:020][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:020][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:020][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:020][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:020][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:020][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/floor/Wood_048_Old_MAT.uasset.
+[2017.03.16-12.11.07:021][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_ambient_occlusion.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:021][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:021][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:021][890]LoadErrors:Error: Error /Game/substance/roof/House_wall_001_INST_ambient_occlusion : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:021][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:021][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:021][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST.uasset.
+[2017.03.16-12.11.07:021][890]LoadErrors:Error: Error /Game/substance/roof/House_wall_001_INST : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/house_wall_001.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/house_wall_001.uasset.
+[2017.03.16-12.11.07:022][890]LoadErrors:Error: Error /Game/substance/roof/house_wall_001 : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/house_wall_001.uasset.
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST.uasset.
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST.uasset.
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST.uasset.
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:022][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:023][890]LoadErrors:Error: Error /Game/substance/roof/House_wall_001_MAT : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_basecolor.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:023][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_basecolor.uasset.
+[2017.03.16-12.11.07:023][890]LoadErrors:Error: Error /Game/substance/roof/House_wall_001_INST_basecolor : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_basecolor.uasset.
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_metallic.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:024][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_metallic.uasset.
+[2017.03.16-12.11.07:024][890]LoadErrors:Error: Error /Game/substance/roof/House_wall_001_INST_metallic : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_metallic.uasset.
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_normal.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:025][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_normal.uasset.
+[2017.03.16-12.11.07:025][890]LoadErrors:Error: Error /Game/substance/roof/House_wall_001_INST_normal : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_normal.uasset.
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_roughness.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:026][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_roughness.uasset.
+[2017.03.16-12.11.07:027][890]LoadErrors:Error: Error /Game/substance/roof/House_wall_001_INST_roughness : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_INST_roughness.uasset.
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:027][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/substance/roof/House_wall_001_MAT.uasset.
+[2017.03.16-12.11.07:108][890]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.16-12.11.07:193][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_ambient_occlusion.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:194][890]LoadErrors:Error: Error /Game/props/shelf/Old_painted_planks_INST_ambient_occlusion : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST.uasset.
+[2017.03.16-12.11.07:194][890]LoadErrors:Error: Error /Game/props/shelf/Old_painted_planks_INST : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/old_painted_planks.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/old_painted_planks.uasset.
+[2017.03.16-12.11.07:194][890]LoadErrors:Error: Error /Game/props/shelf/old_painted_planks : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:194][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/old_painted_planks.uasset.
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST.uasset.
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST.uasset.
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST.uasset.
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_ambient_occlusion.uasset.
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:195][890]LoadErrors:Error: Error /Game/props/shelf/Old_painted_planks_MAT : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:195][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_basecolor.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_basecolor.uasset.
+[2017.03.16-12.11.07:196][890]LoadErrors:Error: Error /Game/props/shelf/Old_painted_planks_INST_basecolor : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_basecolor.uasset.
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:196][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_metallic.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_metallic.uasset.
+[2017.03.16-12.11.07:197][890]LoadErrors:Error: Error /Game/props/shelf/Old_painted_planks_INST_metallic : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:197][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_metallic.uasset.
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_normal.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_normal.uasset.
+[2017.03.16-12.11.07:198][890]LoadErrors:Error: Error /Game/props/shelf/Old_painted_planks_INST_normal : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:198][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_normal.uasset.
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Package ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_roughness.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:199][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_roughness.uasset.
+[2017.03.16-12.11.07:199][890]LoadErrors:Error: Error /Game/props/shelf/Old_painted_planks_INST_roughness : Can't find file for asset. /Script/SubstanceCore
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_INST_roughness.uasset.
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:200][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading ../../../../../github/UE4_test/UE4_github_test/Content/props/shelf/Old_painted_planks_MAT.uasset.
+[2017.03.16-12.11.07:552][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:552][890]LoadErrors: Info Failed to load /Game/substance/roof/House_wall_001_INST_basecolor.House_wall_001_INST_basecolor Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2017.03.16-12.11.07:552][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:552][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:553][890]LoadErrors: Info Failed to load /Script/SubstanceCore.SubstanceTexture2D Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:553][890]LoadErrors: Info Failed to load /Game/substance/roof/House_wall_001_INST_normal.House_wall_001_INST_normal Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:553][890]LoadErrors: Info Failed to load /Script/SubstanceCore.SubstanceTexture2D Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:553][890]LoadErrors: Info Failed to load /Game/substance/roof/House_wall_001_INST_roughness.House_wall_001_INST_roughness Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:553][890]LoadErrors: Info Failed to load /Script/SubstanceCore.SubstanceTexture2D Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2017.03.16-12.11.07:553][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:554][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:554][890]LoadErrors: Info Failed to load /Game/substance/roof/House_wall_001_INST_metallic.House_wall_001_INST_metallic Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2017.03.16-12.11.07:554][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:554][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:554][890]LoadErrors: Info Failed to load /Script/SubstanceCore.SubstanceTexture2D Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2017.03.16-12.11.07:554][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:554][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:554][890]LoadErrors: Info Failed to load /Game/substance/roof/House_wall_001_INST_ambient_occlusion.House_wall_001_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2017.03.16-12.11.07:555][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:555][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:555][890]LoadErrors: Info Failed to load /Script/SubstanceCore.SubstanceTexture2D Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2017.03.16-12.11.07:555][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:746][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:747][890]LoadErrors: Info Failed to load /Game/substance/floor/Wood_048_Old_INST_basecolor.Wood_048_Old_INST_basecolor Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:747][890]LoadErrors: Info Failed to load /Game/substance/floor/Wood_048_Old_INST_normal.Wood_048_Old_INST_normal Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:747][890]LoadErrors: Info Failed to load /Game/substance/floor/Wood_048_Old_INST_roughness.Wood_048_Old_INST_roughness Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:747][890]LoadErrors: Info Failed to load /Game/substance/floor/Wood_048_Old_INST_metallic.Wood_048_Old_INST_metallic Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2017.03.16-12.11.07:747][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:748][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:748][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:748][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:748][890]LoadErrors: Info Failed to load /Game/substance/floor/Wood_048_Old_INST_ambient_occlusion.Wood_048_Old_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2017.03.16-12.11.07:748][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:748][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:748][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:781][890]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.03.16-12.11.07:782][890]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.16-12.11.07:786][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:786][890]LoadErrors: Info Failed to load /Game/props/shelf/Old_painted_planks_INST_basecolor.Old_painted_planks_INST_basecolor Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2017.03.16-12.11.07:786][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:786][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:787][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:787][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:787][890]LoadErrors: Info Failed to load /Game/props/shelf/Old_painted_planks_INST_normal.Old_painted_planks_INST_normal Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2017.03.16-12.11.07:787][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:787][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:787][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:787][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:787][890]LoadErrors: Info Failed to load /Game/props/shelf/Old_painted_planks_INST_roughness.Old_painted_planks_INST_roughness Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2017.03.16-12.11.07:787][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:788][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:788][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:788][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:788][890]LoadErrors: Info Failed to load /Game/props/shelf/Old_painted_planks_INST_metallic.Old_painted_planks_INST_metallic Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2017.03.16-12.11.07:788][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:788][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:788][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:788][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:788][890]LoadErrors: Info Failed to load /Game/props/shelf/Old_painted_planks_INST_ambient_occlusion.Old_painted_planks_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2017.03.16-12.11.07:789][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:789][890]LogLinker:Warning: Can't find file '/Script/SubstanceCore'
+[2017.03.16-12.11.07:789][890]LogLinker:Warning: Can't find file for asset '/Script/SubstanceCore' while loading NULL.
+[2017.03.16-12.11.07:793][890]LogStaticMesh: Building static mesh Trash_WoodBox_01...
+[2017.03.16-12.11.07:839][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.07:945][890]LogStaticMesh: Built static mesh [0.15s] /Game/ProceduralTrash/Props/Update3/Trash_WoodBox_01.Trash_WoodBox_01
+[2017.03.16-12.11.08:021][890]LogStaticMesh: Building static mesh Trash_WheelCar_01...
+[2017.03.16-12.11.08:035][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:051][890]LogStaticMesh: Built static mesh [0.03s] /Game/ProceduralTrash/Props/Update3/Trash_WheelCar_01.Trash_WheelCar_01
+[2017.03.16-12.11.08:054][890]LogStaticMesh: Building static mesh Trash_Trolly_01...
+[2017.03.16-12.11.08:090][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:125][890]LogStaticMesh: Built static mesh [0.07s] /Game/ProceduralTrash/Props/Update3/Trash_Trolly_01.Trash_Trolly_01
+[2017.03.16-12.11.08:130][890]LogStaticMesh: Building static mesh Trash_PlasticBottles_02...
+[2017.03.16-12.11.08:135][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:139][890]LogStaticMesh: Built static mesh [0.01s] /Game/ProceduralTrash/Props/Update3/Trash_PlasticBottles_02.Trash_PlasticBottles_02
+[2017.03.16-12.11.08:176][890]LogMaterial: Missing cached shader map for material Master_Props, compiling. 
+[2017.03.16-12.11.08:245][890]LogTemp:Display: Added material ShaderMap 0x000001EC59D35980 with Material 0x000001EC28D2E980 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.08:386][890]LogTemp:Display: Kicking off shader compilation for Master_Props, GameThreadShaderMap 0x000001EC59D35980
+[2017.03.16-12.11.08:386][890]LogStaticMesh: Building static mesh Trash_PlasticBag_01...
+[2017.03.16-12.11.08:401][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:415][890]LogStaticMesh: Built static mesh [0.03s] /Game/ProceduralTrash/Props/Update3/Trash_PlasticBag_01.Trash_PlasticBag_01
+[2017.03.16-12.11.08:422][890]LogStaticMesh: Building static mesh Trash_OfficeChair_03...
+[2017.03.16-12.11.08:432][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:443][890]LogStaticMesh: Built static mesh [0.03s] /Game/ProceduralTrash/Props/Update3/Trash_OfficeChair_03.Trash_OfficeChair_03
+[2017.03.16-12.11.08:445][890]LogStaticMesh: Building static mesh Trash_OfficeChair_01...
+[2017.03.16-12.11.08:475][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:509][890]LogStaticMesh: Built static mesh [0.06s] /Game/ProceduralTrash/Props/Update3/Trash_OfficeChair_01.Trash_OfficeChair_01
+[2017.03.16-12.11.08:513][890]LogStaticMesh: Building static mesh Trash_Monitor_01...
+[2017.03.16-12.11.08:521][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:530][890]LogStaticMesh: Built static mesh [0.02s] /Game/ProceduralTrash/Props/Update3/Trash_Monitor_01.Trash_Monitor_01
+[2017.03.16-12.11.08:531][890]LogStaticMesh: Building static mesh Trash_GlassBottles_01...
+[2017.03.16-12.11.08:535][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:540][890]LogStaticMesh: Built static mesh [0.01s] /Game/ProceduralTrash/Props/Update3/Trash_GlassBottles_01.Trash_GlassBottles_01
+[2017.03.16-12.11.08:542][890]LogStaticMesh: Building static mesh Trash_FoodBox_02...
+[2017.03.16-12.11.08:547][890]LogStaticMesh: Built static mesh [0.01s] /Game/ProceduralTrash/Props/Update3/Trash_FoodBox_02.Trash_FoodBox_02
+[2017.03.16-12.11.08:548][890]LogStaticMesh: Building static mesh Trash_Can_13...
+[2017.03.16-12.11.08:552][890]LogStaticMesh: Built static mesh [0.00s] /Game/ProceduralTrash/Props/Update3/Trash_Can_13.Trash_Can_13
+[2017.03.16-12.11.08:553][890]LogStaticMesh: Building static mesh Trash_Can_11...
+[2017.03.16-12.11.08:558][890]LogStaticMesh: Built static mesh [0.01s] /Game/ProceduralTrash/Props/Update3/Trash_Can_11.Trash_Can_11
+[2017.03.16-12.11.08:559][890]LogStaticMesh: Building static mesh Trash_Can_10...
+[2017.03.16-12.11.08:562][890]LogStaticMesh: Built static mesh [0.00s] /Game/ProceduralTrash/Props/Update3/Trash_Can_10.Trash_Can_10
+[2017.03.16-12.11.08:564][890]LogStaticMesh: Building static mesh Trash_Box_10...
+[2017.03.16-12.11.08:590][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.08:611][890]LogStaticMesh: Built static mesh [0.05s] /Game/ProceduralTrash/Props/Update3/Trash_Box_10.Trash_Box_10
+[2017.03.16-12.11.08:617][890]LogMaterial: Missing cached shader map for material face_mask, compiling. 
+[2017.03.16-12.11.08:618][890]LogTemp:Display: Added material ShaderMap 0x000001EC5DC1F580 with Material 0x000001EC3DEA9F00 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.08:647][890]LogTemp:Display: Kicking off shader compilation for face_mask, GameThreadShaderMap 0x000001EC5DC1F580
+[2017.03.16-12.11.08:649][890]LogMaterial: Missing cached shader map for material face, compiling. 
+[2017.03.16-12.11.08:650][890]LogTemp:Display: Added material ShaderMap 0x000001EC5D6D9280 with Material 0x000001EC3DE9DD80 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.08:679][890]LogTemp:Display: Kicking off shader compilation for face, GameThreadShaderMap 0x000001EC5D6D9280
+[2017.03.16-12.11.08:731][890]LogMaterial: Missing cached shader map for material maag, compiling. 
+[2017.03.16-12.11.08:732][890]LogTemp:Display: Added material ShaderMap 0x000001EC5DEEFC80 with Material 0x000001EC3DE94400 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.08:766][890]LogTemp:Display: Kicking off shader compilation for maag, GameThreadShaderMap 0x000001EC5DEEFC80
+[2017.03.16-12.11.08:767][890]LogStaticMesh: Building static mesh props_05_graffiti...
+[2017.03.16-12.11.08:775][890]LogStaticMesh: Built static mesh [0.01s] /Game/props/props_05_graffiti.props_05_graffiti
+[2017.03.16-12.11.08:779][890]LogMaterial: Missing cached shader map for material houten_muur, compiling. 
+[2017.03.16-12.11.08:780][890]LogTemp:Display: Added material ShaderMap 0x000001EC5E6ACF00 with Material 0x000001EC35335D80 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.08:824][890]LogTemp:Display: Kicking off shader compilation for houten_muur, GameThreadShaderMap 0x000001EC5E6ACF00
+[2017.03.16-12.11.08:825][890]LogStaticMesh: Building static mesh houten_muur...
+[2017.03.16-12.11.08:867][890]LogStaticMesh: Built static mesh [0.04s] /Game/props/houten_muur.houten_muur
+[2017.03.16-12.11.08:873][890]LogStaticMesh: Building static mesh doos_01_doos1...
+[2017.03.16-12.11.08:876][890]LogStaticMesh: Built static mesh [0.00s] /Game/props/doos_01_doos1.doos_01_doos1
+[2017.03.16-12.11.08:880][890]LogMaterial: Missing cached shader map for material _doos_01default, compiling. 
+[2017.03.16-12.11.08:881][890]LogTemp:Display: Added material ShaderMap 0x000001EC5FB40800 with Material 0x000001EC35351F00 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.08:941][890]LogTemp:Display: Kicking off shader compilation for _doos_01default, GameThreadShaderMap 0x000001EC5FB40800
+[2017.03.16-12.11.08:941][890]LogStaticMesh: Building static mesh doos_01_doos...
+[2017.03.16-12.11.08:943][890]LogStaticMesh: Built static mesh [0.00s] /Game/props/doos_01_doos.doos_01_doos
+[2017.03.16-12.11.08:946][890]LogMaterial: Missing cached shader map for material _bank_low_01defaultMat, compiling. 
+[2017.03.16-12.11.08:947][890]LogTemp:Display: Added material ShaderMap 0x000001EC607F1980 with Material 0x000001EC35364E80 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.08:964][890]LogTemp:Display: Kicking off shader compilation for _bank_low_01defaultMat, GameThreadShaderMap 0x000001EC607F1980
+[2017.03.16-12.11.08:965][890]LogStaticMesh: Building static mesh bank_01...
+[2017.03.16-12.11.08:987][890]LogStaticMesh: Built static mesh [0.02s] /Game/props/bank/bank_01.bank_01
+[2017.03.16-12.11.08:990][890]LogStaticMesh: Building static mesh Trash_Stairs_02...
+[2017.03.16-12.11.08:997][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.09:012][890]LogStaticMesh: Built static mesh [0.02s] /Game/ProceduralTrash/Props/Update3/Trash_Stairs_02.Trash_Stairs_02
+[2017.03.16-12.11.09:013][890]LogStaticMesh: Building static mesh Trash_Monitor_02...
+[2017.03.16-12.11.09:021][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.09:030][890]LogStaticMesh: Built static mesh [0.02s] /Game/ProceduralTrash/Props/Update3/Trash_Monitor_02.Trash_Monitor_02
+[2017.03.16-12.11.09:032][890]LogStaticMesh: Building static mesh trash_Palettes_2...
+[2017.03.16-12.11.09:055][890]LogStaticMesh: Built static mesh [0.02s] /Game/ProceduralTrash/Props/trash_Palettes_2.trash_Palettes_2
+[2017.03.16-12.11.09:058][890]LogMaterial: Missing cached shader map for material Plank_wood_1_Mat, compiling. 
+[2017.03.16-12.11.09:059][890]LogTemp:Display: Added material ShaderMap 0x000001EC6035F900 with Material 0x000001EC35382500 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.09:091][890]LogTemp:Display: Kicking off shader compilation for Plank_wood_1_Mat, GameThreadShaderMap 0x000001EC6035F900
+[2017.03.16-12.11.09:093][890]LogMaterial: Missing cached shader map for material House_wall_001_MAT, compiling. 
+[2017.03.16-12.11.09:094][890]LogMaterial:Warning: Failed to compile Material /Game/substance/roof/House_wall_001_MAT.House_wall_001_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.16-12.11.09:094][890]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.03.16-12.11.09:098][890]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.03.16-12.11.09:099][890]LogTemp:Display: Added material ShaderMap 0x000001EC61B62780 with Material 0x000001EC3DE90880 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.09:127][890]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x000001EC61B62780
+[2017.03.16-12.11.09:375][890]LogStaticMesh: Building static mesh Trash_bicycle_01...
+[2017.03.16-12.11.09:487][890]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.16-12.11.09:606][890]LogStaticMesh: Built static mesh [0.23s] /Game/ProceduralTrash/Props/Update3/Trash_bicycle_01.Trash_bicycle_01
+[2017.03.16-12.11.09:616][890]LogMaterial: Missing cached shader map for material Mat_Baked, compiling. 
+[2017.03.16-12.11.09:654][890]LogTemp:Display: Added material ShaderMap 0x000001EC613ABC80 with Material 0x000001EC28D36F80 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.09:668][890]LogTemp:Display: Kicking off shader compilation for Mat_Baked, GameThreadShaderMap 0x000001EC613ABC80
+[2017.03.16-12.11.09:675][890]LogStaticMesh: Building static mesh omgeving_muur_02_deur...
+[2017.03.16-12.11.09:680][890]LogStaticMesh: Built static mesh [0.01s] /Game/Muren/omgeving_muur_02_deur.omgeving_muur_02_deur
+[2017.03.16-12.11.09:680][890]LogStaticMesh: Building static mesh omgeving_muur_02_deur_hendel...
+[2017.03.16-12.11.09:692][890]LogStaticMesh: Built static mesh [0.01s] /Game/Muren/omgeving_muur_02_deur_hendel.omgeving_muur_02_deur_hendel
+[2017.03.16-12.11.09:695][890]LogStaticMesh: Building static mesh omgeving_muur_02_muur_002...
+[2017.03.16-12.11.09:698][890]LogStaticMesh: Built static mesh [0.00s] /Game/Muren/omgeving_muur_02_muur_002.omgeving_muur_02_muur_002
+[2017.03.16-12.11.09:699][890]LogStaticMesh: Building static mesh omgeving_muur_02_muur_01...
+[2017.03.16-12.11.09:701][890]LogStaticMesh: Built static mesh [0.00s] /Game/Muren/omgeving_muur_02_muur_01.omgeving_muur_02_muur_01
+[2017.03.16-12.11.09:702][890]LogStaticMesh: Building static mesh omgeving_muur_02_muur_hoek...
+[2017.03.16-12.11.09:704][890]LogStaticMesh: Built static mesh [0.00s] /Game/Muren/omgeving_muur_02_muur_hoek.omgeving_muur_02_muur_hoek
+[2017.03.16-12.11.09:705][890]LogStaticMesh: Building static mesh omgeving_muur_02_muur_opening...
+[2017.03.16-12.11.09:710][890]LogStaticMesh: Built static mesh [0.01s] /Game/Muren/omgeving_muur_02_muur_opening.omgeving_muur_02_muur_opening
+[2017.03.16-12.11.09:711][890]LogStaticMesh: Building static mesh omgeving_muur_02_muur_raam...
+[2017.03.16-12.11.09:718][890]LogStaticMesh: Built static mesh [0.01s] /Game/Muren/omgeving_muur_02_muur_raam.omgeving_muur_02_muur_raam
+[2017.03.16-12.11.09:719][890]LogStaticMesh: Building static mesh omgeving_muur_02_wallpaper...
+[2017.03.16-12.11.09:721][890]LogStaticMesh: Built static mesh [0.00s] /Game/Muren/omgeving_muur_02_wallpaper.omgeving_muur_02_wallpaper
+[2017.03.16-12.11.09:722][890]LogStaticMesh: Building static mesh props_05_propanetank...
+[2017.03.16-12.11.09:759][890]LogStaticMesh: Built static mesh [0.04s] /Game/props/props_05_propanetank.props_05_propanetank
+[2017.03.16-12.11.09:764][890]LogStaticMesh: Building static mesh props_05_soda_can...
+[2017.03.16-12.11.09:773][890]LogStaticMesh: Built static mesh [0.01s] /Game/props/props_05_soda_can.props_05_soda_can
+[2017.03.16-12.11.09:774][890]LogStaticMesh: Building static mesh props_05_verf...
+[2017.03.16-12.11.09:787][890]LogStaticMesh: Built static mesh [0.01s] /Game/props/props_05_verf.props_05_verf
+[2017.03.16-12.11.09:789][890]LogStaticMesh: Building static mesh props_05_waterfles...
+[2017.03.16-12.11.09:804][890]LogStaticMesh: Built static mesh [0.02s] /Game/props/props_05_waterfles.props_05_waterfles
+[2017.03.16-12.11.09:809][890]LogStaticMesh: Building static mesh props_05_waterfles_XL...
+[2017.03.16-12.11.09:821][890]LogStaticMesh: Built static mesh [0.01s] /Game/props/props_05_waterfles_XL.props_05_waterfles_XL
+[2017.03.16-12.11.09:823][890]LogStaticMesh: Building static mesh SHELF_FBX...
+[2017.03.16-12.11.09:837][890]LogStaticMesh: Built static mesh [0.01s] /Game/props/shelf/SHELF_FBX.SHELF_FBX
+[2017.03.16-12.11.09:838][890]LogStaticMesh: Building static mesh SofaSeat_02...
+[2017.03.16-12.11.09:844][890]LogStaticMesh: Built static mesh [0.01s] /Game/ProceduralTrash/Props/SofaSeat_02.SofaSeat_02
+[2017.03.16-12.11.09:848][890]LogStaticMesh: Building static mesh trash_01...
+[2017.03.16-12.11.09:875][890]LogStaticMesh: Built static mesh [0.03s] /Game/props/trash_01.trash_01
+[2017.03.16-12.11.09:878][890]LogStaticMesh: Building static mesh trash_02...
+[2017.03.16-12.11.09:903][890]LogStaticMesh: Built static mesh [0.02s] /Game/props/trash_02.trash_02
+[2017.03.16-12.11.09:908][890]LogStaticMesh: Building static mesh trash_03...
+[2017.03.16-12.11.09:933][890]LogStaticMesh: Built static mesh [0.02s] /Game/props/trash_03.trash_03
+[2017.03.16-12.11.09:937][890]LogStaticMesh: Building static mesh Trash_CanFood_02...
+[2017.03.16-12.11.09:941][890]LogStaticMesh: Built static mesh [0.00s] /Game/ProceduralTrash/Props/Trash_CanFood_02.Trash_CanFood_02
+[2017.03.16-12.11.09:942][890]LogStaticMesh: Building static mesh trash_Palettes_1...
+[2017.03.16-12.11.09:963][890]LogStaticMesh: Built static mesh [0.02s] /Game/ProceduralTrash/Props/trash_Palettes_1.trash_Palettes_1
+[2017.03.16-12.11.10:020][890]LogMaterial: Missing cached shader map for material Wood_048_Old_MAT, compiling. 
+[2017.03.16-12.11.10:020][890]LogMaterial:Warning: Failed to compile Material /Game/substance/floor/Wood_048_Old_MAT.Wood_048_Old_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.16-12.11.10:020][890]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.03.16-12.11.10:025][890]LogTexture:Display: Building textures: AOMaterialMask0_1 (BC4)
+[2017.03.16-12.11.10:100][890]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.16-12.11.10:373][890]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.16-12.11.10:555][890]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2017.03.16-12.11.10:602][890]LogStaticMesh: Building static mesh Trash_BoxPizza_03...
+[2017.03.16-12.11.10:610][890]LogStaticMesh: Built static mesh [0.01s] /Game/ProceduralTrash/Props/Trash_BoxPizza_03.Trash_BoxPizza_03
+[2017.03.16-12.11.10:611][890]LogStaticMesh: Building static mesh Trash_BoxPizza_01...
+[2017.03.16-12.11.10:629][890]LogStaticMesh: Built static mesh [0.02s] /Game/ProceduralTrash/Props/Trash_BoxPizza_01.Trash_BoxPizza_01
+[2017.03.16-12.11.10:632][890]LogStaticMesh: Building static mesh Trash_BoxMini_02...
+[2017.03.16-12.11.10:636][890]LogStaticMesh: Built static mesh [0.01s] /Game/ProceduralTrash/Props/Trash_BoxMini_02.Trash_BoxMini_02
+[2017.03.16-12.11.10:639][890]LogMaterial: Missing cached shader map for material Trash_Atlast_D_Mat, compiling. 
+[2017.03.16-12.11.10:640][890]LogTemp:Display: Added material ShaderMap 0x000001EC612BCF00 with Material 0x000001EC591F5F00 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.10:684][890]LogTemp:Display: Kicking off shader compilation for Trash_Atlast_D_Mat, GameThreadShaderMap 0x000001EC612BCF00
+[2017.03.16-12.11.10:688][890]LogMaterial: Missing cached shader map for material MUREN, compiling. 
+[2017.03.16-12.11.10:806][890]LogTemp:Display: Added material ShaderMap 0x000001EC5B920480 with Material 0x000001EC5921CB80 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.10:865][890]LogTemp:Display: Kicking off shader compilation for MUREN, GameThreadShaderMap 0x000001EC5B920480
+[2017.03.16-12.11.10:869][890]LogMaterial: Missing cached shader map for material mask, compiling. 
+[2017.03.16-12.11.10:870][890]LogTemp:Display: Added material ShaderMap 0x000001EC63C88100 with Material 0x000001EC595DE980 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.10:937][890]LogTemp:Display: Kicking off shader compilation for mask, GameThreadShaderMap 0x000001EC63C88100
+[2017.03.16-12.11.10:939][890]LogMaterial: Missing cached shader map for material hazmat_suit, compiling. 
+[2017.03.16-12.11.10:940][890]LogTemp:Display: Added material ShaderMap 0x000001EC660FA780 with Material 0x000001EC5960AF80 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.10:979][890]LogTemp:Display: Kicking off shader compilation for hazmat_suit, GameThreadShaderMap 0x000001EC660FA780
+[2017.03.16-12.11.10:983][890]LogMaterial: Missing cached shader map for material trashbag, compiling. 
+[2017.03.16-12.11.10:984][890]LogTemp:Display: Added material ShaderMap 0x000001EC678A1280 with Material 0x000001EC599DA380 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.11:038][890]LogTemp:Display: Kicking off shader compilation for trashbag, GameThreadShaderMap 0x000001EC678A1280
+[2017.03.16-12.11.11:041][890]LogMaterial: Missing cached shader map for material Old_painted_planks_MAT, compiling. 
+[2017.03.16-12.11.11:042][890]LogMaterial:Warning: Failed to compile Material /Game/props/shelf/Old_painted_planks_MAT.Old_painted_planks_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.16-12.11.11:042][890]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.03.16-12.11.11:050][890]LogMaterial: Missing cached shader map for material _prop_03default, compiling. 
+[2017.03.16-12.11.11:054][890]LogTemp:Display: Added material ShaderMap 0x000001EC6703BC80 with Material 0x000001EC59A21F00 to ShaderMapsBeingCompiled
+[2017.03.16-12.11.11:185][890]LogTemp:Display: Kicking off shader compilation for _prop_03default, GameThreadShaderMap 0x000001EC6703BC80
+[2017.03.16-12.11.11:193][890]LogAIModule: Creating AISystem for world kamer_05
+[2017.03.16-12.11.11:770][890]Cmd: MAP LOAD FILE="../../../../../github/UE4_test/UE4_github_test/Content/Maps/kamer_05.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.16-12.11.11:772][890]LightingResults: New page: Lighting Build
+[2017.03.16-12.11.11:776][890]LoadErrors: New page: Loading map: kamer_05.umap
+[2017.03.16-12.11.11:778][890]MapCheck: New page: Map Check
+[2017.03.16-12.11.11:779][890]LightingResults: New page: Lighting Build
+[2017.03.16-12.11.12:100][890]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.16-12.11.12:164][890]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.16-12.11.12:261][890]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.743ms to complete.
+[2017.03.16-12.11.12:262][890]LogFileHelpers: Loading map 'kamer_05' took 0.535
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/floor/Wood_048_Old_INST_ambient_occlusion.Wood_048_Old_INST_ambient_occlusion
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/floor/Wood_048_Old_INST_basecolor.Wood_048_Old_INST_basecolor
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/floor/Wood_048_Old_INST_metallic.Wood_048_Old_INST_metallic
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/floor/Wood_048_Old_INST_normal.Wood_048_Old_INST_normal
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/floor/Wood_048_Old_INST_roughness.Wood_048_Old_INST_roughness
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/roof/House_wall_001_INST_ambient_occlusion.House_wall_001_INST_ambient_occlusion
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/roof/House_wall_001_INST_basecolor.House_wall_001_INST_basecolor
+[2017.03.16-12.11.12:287][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/roof/House_wall_001_INST_metallic.House_wall_001_INST_metallic
+[2017.03.16-12.11.12:288][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/roof/House_wall_001_INST_normal.House_wall_001_INST_normal
+[2017.03.16-12.11.12:288][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/substance/roof/House_wall_001_INST_roughness.House_wall_001_INST_roughness
+[2017.03.16-12.11.12:288][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/props/shelf/Old_painted_planks_INST_ambient_occlusion.Old_painted_planks_INST_ambient_occlusion
+[2017.03.16-12.11.12:288][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/props/shelf/Old_painted_planks_INST_basecolor.Old_painted_planks_INST_basecolor
+[2017.03.16-12.11.12:288][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/props/shelf/Old_painted_planks_INST_metallic.Old_painted_planks_INST_metallic
+[2017.03.16-12.11.12:288][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/props/shelf/Old_painted_planks_INST_normal.Old_painted_planks_INST_normal
+[2017.03.16-12.11.12:288][890]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/props/shelf/Old_painted_planks_INST_roughness.Old_painted_planks_INST_roughness
+[2017.03.16-12.11.15:086][ 37]LogTemp:Display: Finished compile of shader map 0x000001EC59D35980
+[2017.03.16-12.11.15:086][ 37]LogTemp:Display: Shader map Master_Props complete, GameThreadShaderMap 0x000001EC59D35980, marking material Master_Props as finished
+[2017.03.16-12.11.15:086][ 37]LogTemp:Display: Marking material as finished 0x000001EC28D2E980
+[2017.03.16-12.11.18:344][215]LogTemp:Display: Finished compile of shader map 0x000001EC5DC1F580
+[2017.03.16-12.11.18:344][215]LogTemp:Display: Shader map face_mask complete, GameThreadShaderMap 0x000001EC5DC1F580, marking material face_mask as finished
+[2017.03.16-12.11.18:344][215]LogTemp:Display: Marking material as finished 0x000001EC3DEA9F00
+[2017.03.16-12.11.19:940][301]LogTemp:Display: Finished compile of shader map 0x000001EC5D6D9280
+[2017.03.16-12.11.19:940][301]LogTemp:Display: Shader map face complete, GameThreadShaderMap 0x000001EC5D6D9280, marking material face as finished
+[2017.03.16-12.11.19:940][301]LogTemp:Display: Marking material as finished 0x000001EC3DE9DD80
+[2017.03.16-12.11.23:641][523]LogTemp:Display: Finished compile of shader map 0x000001EC5DEEFC80
+[2017.03.16-12.11.23:641][523]LogTemp:Display: Shader map maag complete, GameThreadShaderMap 0x000001EC5DEEFC80, marking material maag as finished
+[2017.03.16-12.11.23:641][523]LogTemp:Display: Marking material as finished 0x000001EC3DE94400
+[2017.03.16-12.11.26:615][699]LogTemp:Display: Finished compile of shader map 0x000001EC5E6ACF00
+[2017.03.16-12.11.26:615][699]LogTemp:Display: Shader map houten_muur complete, GameThreadShaderMap 0x000001EC5E6ACF00, marking material houten_muur as finished
+[2017.03.16-12.11.26:615][699]LogTemp:Display: Marking material as finished 0x000001EC35335D80
+[2017.03.16-12.11.32:522][ 39]LogTemp:Display: Finished compile of shader map 0x000001EC5FB40800
+[2017.03.16-12.11.32:522][ 39]LogTemp:Display: Shader map _doos_01default complete, GameThreadShaderMap 0x000001EC5FB40800, marking material _doos_01default as finished
+[2017.03.16-12.11.32:522][ 39]LogTemp:Display: Marking material as finished 0x000001EC35351F00
+[2017.03.16-12.11.33:539][106]LogTemp:Display: Finished compile of shader map 0x000001EC607F1980
+[2017.03.16-12.11.33:539][106]LogTemp:Display: Shader map _bank_low_01defaultMat complete, GameThreadShaderMap 0x000001EC607F1980, marking material _bank_low_01defaultMat as finished
+[2017.03.16-12.11.33:539][106]LogTemp:Display: Marking material as finished 0x000001EC35364E80
+[2017.03.16-12.11.35:856][250]LogTemp:Display: Finished compile of shader map 0x000001EC6035F900
+[2017.03.16-12.11.35:856][250]LogTemp:Display: Shader map Plank_wood_1_Mat complete, GameThreadShaderMap 0x000001EC6035F900, marking material Plank_wood_1_Mat as finished
+[2017.03.16-12.11.35:856][250]LogTemp:Display: Marking material as finished 0x000001EC35382500
+[2017.03.16-12.11.38:027][388]LogTemp:Display: Finished compile of shader map 0x000001EC61B62780
+[2017.03.16-12.11.38:027][388]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x000001EC61B62780, marking material lambert1 as finished
+[2017.03.16-12.11.38:027][388]LogTemp:Display: Marking material as finished 0x000001EC3DE90880
+[2017.03.16-12.11.38:414][413]LogTemp:Display: Finished compile of shader map 0x000001EC613ABC80
+[2017.03.16-12.11.38:414][413]LogTemp:Display: Shader map Mat_Baked complete, GameThreadShaderMap 0x000001EC613ABC80, marking material Mat_Baked as finished
+[2017.03.16-12.11.38:414][413]LogTemp:Display: Marking material as finished 0x000001EC28D36F80
+[2017.03.16-12.11.41:807][640]LogTemp:Display: Finished compile of shader map 0x000001EC612BCF00
+[2017.03.16-12.11.41:807][640]LogTemp:Display: Shader map Trash_Atlast_D_Mat complete, GameThreadShaderMap 0x000001EC612BCF00, marking material Trash_Atlast_D_Mat as finished
+[2017.03.16-12.11.41:807][640]LogTemp:Display: Marking material as finished 0x000001EC591F5F00
+[2017.03.16-12.11.43:094][716]LogTemp:Display: Finished compile of shader map 0x000001EC5B920480
+[2017.03.16-12.11.43:094][716]LogTemp:Display: Shader map MUREN complete, GameThreadShaderMap 0x000001EC5B920480, marking material MUREN as finished
+[2017.03.16-12.11.43:094][716]LogTemp:Display: Marking material as finished 0x000001EC5921CB80
+[2017.03.16-12.11.49:728][ 97]LogTemp:Display: Finished compile of shader map 0x000001EC63C88100
+[2017.03.16-12.11.49:728][ 97]LogTemp:Display: Shader map mask complete, GameThreadShaderMap 0x000001EC63C88100, marking material mask as finished
+[2017.03.16-12.11.49:728][ 97]LogTemp:Display: Marking material as finished 0x000001EC595DE980
+[2017.03.16-12.11.52:270][253]LogTemp:Display: Finished compile of shader map 0x000001EC660FA780
+[2017.03.16-12.11.52:270][253]LogTemp:Display: Shader map hazmat_suit complete, GameThreadShaderMap 0x000001EC660FA780, marking material hazmat_suit as finished
+[2017.03.16-12.11.52:270][253]LogTemp:Display: Marking material as finished 0x000001EC5960AF80
+[2017.03.16-12.11.54:241][391]LogTemp:Display: Finished compile of shader map 0x000001EC678A1280
+[2017.03.16-12.11.54:241][391]LogTemp:Display: Shader map trashbag complete, GameThreadShaderMap 0x000001EC678A1280, marking material trashbag as finished
+[2017.03.16-12.11.54:241][391]LogTemp:Display: Marking material as finished 0x000001EC599DA380
+[2017.03.16-12.11.57:577][680]LogTemp:Display: Finished compile of shader map 0x000001EC6703BC80
+[2017.03.16-12.11.57:577][680]LogTemp:Display: Shader map _prop_03default complete, GameThreadShaderMap 0x000001EC6703BC80, marking material _prop_03default as finished
+[2017.03.16-12.11.57:577][680]LogTemp:Display: Marking material as finished 0x000001EC59A21F00
+[2017.03.16-12.12.03:395][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.16-12.12.05:431][607]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../github/UE4_test/UE4_github_test/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.03.16-12.12.10:340][190]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.03.16-12.12.10:385][190]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.03.16-12.12.10:386][190]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.16-12.12.10:674][191]Cmd: QUIT_EDITOR
+[2017.03.16-12.12.10:725][191]LogExit: Preparing to exit.
+[2017.03.16-12.12.11:444][191]LogDirectoryWatcher: A directory notification for 'E:/github/UE4_test/UE4_github_test/Content/' was aborted.
+[2017.03.16-12.12.11:543][191]LogExit: Editor shut down
+[2017.03.16-12.12.11:543][191]LogExit: Transaction tracking system shut down
+[2017.03.16-12.12.11:602][191]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.16-12.12.11:602][191]LogExit: Object subsystem successfully closed.
+[2017.03.16-12.12.11:627][191]LogD3D11RHI: Shutdown
+[2017.03.16-12.12.11:627][191]LogD3D11RHI: CleanupD3DDevice
+[2017.03.16-12.12.11:725][191]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.16-12.12.11:734][191]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.16-12.12.11:734][191]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.16-12.12.11:734][191]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.16-12.12.11:734][191]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.16-12.12.11:734][191]LogDirectoryWatcher: A directory notification for 'E:/Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.16-12.12.11:735][191]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.16-12.12.11:735][191]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.16-12.12.11:735][191]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.16-12.12.11:736][191]LogDirectoryWatcher: A directory notification for 'E:/github/UE4_test/UE4_github_test/Content/Collections/' was aborted.
+[2017.03.16-12.12.11:736][191]LogDirectoryWatcher: A directory notification for 'E:/github/UE4_test/UE4_github_test/Content/Developers/AlexCaro/Collections/' was aborted.
+[2017.03.16-12.12.11:736][191]LogDirectoryWatcher: A directory notification for 'E:/github/UE4_test/UE4_github_test/Saved/Collections/' was aborted.
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.16-12.12.11:736][191]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.16-12.12.12:191][191]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.16-12.12.12:233][191]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.16-12.12.12:234][191]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.16-12.12.12:279][191]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.16-12.12.12:280][191]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.16-12.12.12:281][191]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.16-12.12.12:281][191]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.16-12.12.12:281][191]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.16-12.12.12:281][191]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.16-12.12.12:282][191]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.16-12.12.12:282][191]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.16-12.12.12:282][191]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.16-12.12.12:282][191]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.16-12.12.12:382][191]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.16-12.12.12:483][191]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.16-12.12.12:485][191]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.16-12.12.12:485][191]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.16-12.12.12:485][191]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.16-12.12.12:485][191]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.16-12.12.12:485][191]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.16-12.12.12:485][191]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.16-12.12.12:709][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.16-12.12.12:709][191]LogDirectoryWatcher: A directory notification for '../../../../../github/UE4_test/UE4_github_test/Content/' was aborted.
+[2017.03.16-12.12.12:709][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.16-12.12.12:710][191]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.16-12.12.12:752][191]LogDerivedDataCache: Shutdown
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.16-12.12.12:752][191]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.16-12.12.12:753][191]LogHMD: Oculus shutdown.
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.16-12.12.12:753][191]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.16-12.12.12:753][191]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.16-12.12.12:753][191]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.16-12.12.12:753][191]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC2647A64-4D2D-5AF7-D6B4-808BF2DA7FF6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=2604750a46c073c448b941b946f4222e%7C2addced0c46b4c28afd65b8ca3384632%7C6991fc03-ed4a-47e8-a436-fa10f82de75f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.16-12.12.12:761][191]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.16-12.12.12:763][191]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.16-12.12.12:763][191]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.16-12.12.12:763][191]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.16-12.12.12:763][191]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.16-12.12.12:763][191]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.16-12.12.12:764][191]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.16-12.12.12:766][191]LogExit: Exiting.
+[2017.03.16-12.12.12:775][191]Log file closed, 03/16/17 13:12:12
