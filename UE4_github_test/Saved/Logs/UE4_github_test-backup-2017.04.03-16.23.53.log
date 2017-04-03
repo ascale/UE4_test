@@ -1,0 +1,1108 @@
+﻿Log file open, 04/03/17 15:26:44
+LogInit:Display: Running engine for game: UE4_github_test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2010164093) SRandInit(2010164093).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068462
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.13.0(build = 361842) feature version = 0. Client runs version (prod = 1).1.13.0(build = 361842) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.03-13.26.47:548][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.03-13.26.47:548][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.03-13.26.47:723][  0]LogInit: Computer: IB50
+[2017.04.03-13.26.47:723][  0]LogInit: User: Student
+[2017.04.03-13.26.47:723][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.03-13.26.47:723][  0]LogInit: High frequency timer resolution =3.312685 MHz
+[2017.04.03-13.26.47:738][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.03-13.26.47:750][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.03-13.26.47:750][  0]LogMemory: Process Physical Memory: 269.93 MB used, 269.93 MB peak
+[2017.04.03-13.26.47:750][  0]LogMemory: Process Virtual Memory: 269.14 MB used, 269.14 MB peak
+[2017.04.03-13.26.47:750][  0]LogMemory: Physical Memory: 8954.46 MB used,  7371.62 MB free, 16326.09 MB total
+[2017.04.03-13.26.47:750][  0]LogMemory: Virtual Memory: 663.73 MB used,  7371.62 MB free, 8388608.00 MB total
+[2017.04.03-13.26.49:432][  0]LogTextLocalizationManager: No translations for ('nl-NL') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.03-13.26.54:788][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.03-13.26.55:261][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2000' (Feature Level 11_0)
+[2017.04.03-13.26.55:261][  0]LogD3D11RHI:       1990/0/7907 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.03-13.26.55:261][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.03-13.26.55:267][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.03-13.26.55:267][  0]LogD3D11RHI:     GPU DeviceId: 0xffe (for the marketing name, search the web for "GPU Device Id")
+[2017.04.03-13.26.55:267][  0]LogWindows: EnumDisplayDevices:
+[2017.04.03-13.26.55:268][  0]LogWindows:    0. 'NVIDIA Quadro K2000' (P:1 D:1)
+[2017.04.03-13.26.55:268][  0]LogWindows:    1. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.04.03-13.26.55:268][  0]LogWindows:    2. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.04.03-13.26.55:268][  0]LogWindows:    3. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.04.03-13.26.55:268][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.04.03-13.26.55:268][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.04.03-13.26.55:268][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.04.03-13.26.55:268][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.03-13.26.55:268][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2000
+[2017.04.03-13.26.55:268][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.04.03-13.26.55:268][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.04.03-13.26.55:268][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.03-13.26.55:708][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.03-13.26.55:719][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.03-13.26.56:066][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.03-13.26.56:164][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Intermediate/Shaders/WorkingDirectory/9244/).
+[2017.04.03-13.26.56:165][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/7CA83E654972612B17D2578B88E23855/'.
+[2017.04.03-13.26.56:165][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.03-13.26.58:648][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.03-13.26.58:695][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.03-13.26.58:741][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.03-13.26.58:788][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.03-13.26.58:848][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.03-13.26.58:913][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.03-13.26.58:963][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.03-13.26.59:009][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.03-13.26.59:058][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.03-13.26.59:129][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.03-13.26.59:176][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.03-13.26.59:224][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.03-13.26.59:287][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.03-13.26.59:334][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.03-13.26.59:380][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.03-13.26.59:494][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.03-13.26.59:494][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.03-13.26.59:528][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.03-13.26.59:659][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.03-13.26.59:688][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.03-13.26.59:735][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.03-13.26.59:782][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.03-13.26.59:828][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.03-13.26.59:886][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.03-13.26.59:886][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.03-13.27.00:737][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.03-13.27.01:246][  0]LogDerivedDataCache: Loaded boot cache 0.51s 61MB C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.03-13.27.01:246][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.03-13.27.01:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.03-13.27.01:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.03-13.27.01:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.03-13.27.01:247][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.03-13.27.01:297][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.03-13.27.01:309][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.03-13.27.01:354][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.03-13.27.01:430][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.03-13.27.01:430][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.03-13.27.08:152][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.03-13.27.08:191][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.03-13.27.08:940][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.03-13.27.08:990][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.03-13.27.09:039][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.03-13.27.09:039][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.03-13.27.09:039][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.03-13.27.12:145][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: ue4_github_test, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 268766832
+[2017.04.03-13.27.12:248][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2017.04.03-13.27.12:420][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.073158 seconds
+[2017.04.03-13.27.12:439][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.03-13.27.12:439][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.03-13.27.12:439][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.03-13.27.12:533][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.03-13.27.32:481][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.03-13.27.32:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.03-13.27.32:639][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.03-13.27.33:867][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.03-13.27.34:609][  0]SourceControl: Info Source control is disabled
+[2017.04.03-13.27.34:610][  0]SourceControl: Info Source control is disabled
+[2017.04.03-13.27.34:710][  0]SourceControl: Info Source control is disabled
+[2017.04.03-13.27.34:774][  0]SourceControl: Info Source control is disabled
+[2017.04.03-13.27.35:661][  0]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2017.04.03-13.27.37:444][  0]LogEngine: Initializing Engine...
+[2017.04.03-13.27.37:451][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.13.0, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.04.03-13.27.38:203][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.03-13.27.38:239][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.03-13.27.38:249][  0]LogInit: FAudioDevice initialized.
+[2017.04.03-13.27.38:287][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.03-13.27.38:292][  0]LogInit: Texture streaming: Enabled
+[2017.04.03-13.27.38:424][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.03-13.27.38:557][  0]LogInit: Transaction tracking system initialized
+[2017.04.03-13.27.38:998][  0]BlueprintLog: New page: Editor Load
+[2017.04.03-13.27.40:440][  0]LocalizationService: Info Localization service is disabled
+[2017.04.03-13.27.41:394][  0]LogConsoleResponse:Display: 
+[2017.04.03-13.27.43:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/' took 0.02s
+[2017.04.03-13.27.43:556][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.03-13.27.43:556][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.03-13.27.46:024][  0]SourceControl: Info Source control is disabled
+[2017.04.03-13.27.46:033][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.03-13.27.46:049][  0]LightingResults: New page: Lighting Build
+[2017.04.03-13.27.46:129][  0]MapCheck: New page: Map Check
+[2017.04.03-13.27.46:129][  0]LightingResults: New page: Lighting Build
+[2017.04.03-13.27.46:823][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.03-13.27.46:842][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.03-13.27.46:900][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.03-13.27.46:913][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.03-13.27.46:984][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.649ms to complete.
+[2017.04.03-13.27.46:984][  0]LogFileHelpers: Loading map 'Template_Default' took 0.952
+[2017.04.03-13.27.47:531][  0]LogCollectionManager: Loaded 0 collections in 0.002765 seconds
+[2017.04.03-13.27.47:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Collections/' took 0.01s
+[2017.04.03-13.27.47:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Developers/Student/Collections/' took 0.01s
+[2017.04.03-13.27.47:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Collections/' took 0.01s
+[2017.04.03-13.27.47:657][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.03-13.27.47:667][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2284 classes and 464 folders.
+[2017.04.03-13.27.47:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.03-13.27.47:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.03-13.27.47:757][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.03-13.27.48:761][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.04.03-13.27.48:853][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.03-13.27.49:066][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.03-13.27.49:093][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.03-13.27.49:199][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.03-13.27.49:200][  0]LogLoad: (Engine Initialization) Total time: 67.23 seconds
+[2017.04.03-13.27.49:200][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2017.04.03-13.27.49:200][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.03-13.27.49:200][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.03-13.27.49:212][  0]LogOcInput: OculusInput pre-init called
+[2017.04.03-13.27.49:242][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.13.0
+[2017.04.03-13.27.49:297][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.03-13.27.49:304][  0]LogSlate: Took 0.006001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.03-13.27.49:311][  0]LogSlate: Took 0.003622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.03-13.27.49:333][  0]LogSlate: Took 0.006644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.03-13.27.49:720][  0]LogRenderer: Reallocating scene render targets to support 1288x624 NumSamples 1 (Frame:2).
+[2017.04.03-13.27.49:963][  2]LogAssetRegistry: Asset discovery search completed in 37.7349 seconds
+[2017.04.03-13.27.49:963][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.04.03-13.27.49:969][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.04.03-13.27.50:384][  8]LogSlate: Took 0.000863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-13.27.53:684][229]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-13.36.03:607][640]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.03-13.36.04:424][640]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.03-13.36.05:570][640]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.04.03-13.36.05:571][640]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.03-13.36.14:127][640]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.03-13.36.14:192][640]Cmd: MAP LOAD FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.03-13.36.14:192][640]LightingResults: New page: Lighting Build
+[2017.04.03-13.36.14:193][640]LoadErrors: New page: Loading map: kamer_06.umap
+[2017.04.03-13.36.14:194][640]MapCheck: New page: Map Check
+[2017.04.03-13.36.14:194][640]LightingResults: New page: Lighting Build
+[2017.04.03-13.36.14:223][640]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.03-13.36.14:238][640]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.03-13.36.14:299][640]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.149ms to complete.
+[2017.04.03-13.36.14:299][640]LogFileHelpers: Loading map 'kamer_06' took 0.108
+[2017.04.03-13.37.10:017][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.03-13.37.10:497][919]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2017.04.03-13.37.41:876][323]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.04.03-13.37.41:938][323]LogMaterial: Missing cached shader map for material DefaultParticle, compiling. 
+[2017.04.03-13.37.41:939][323]LogTemp:Display: Added material ShaderMap 0x000000004B2B4B80 with Material 0x000000006AAEFB80 to ShaderMapsBeingCompiled
+[2017.04.03-13.37.42:002][323]LogTemp:Display: Kicking off shader compilation for DefaultParticle, GameThreadShaderMap 0x000000004B2B4B80
+[2017.04.03-13.37.44:625][384]LogTemp:Display: Finished compile of shader map 0x000000004B2B4B80
+[2017.04.03-13.37.44:625][384]LogTemp:Display: Shader map DefaultParticle complete, GameThreadShaderMap 0x000000004B2B4B80, marking material DefaultParticle as finished
+[2017.04.03-13.37.44:625][384]LogTemp:Display: Marking material as finished 0x000000006AAEFB80
+[2017.04.03-13.37.57:307][798]LogCascade: Non-seeded module ParticleModuleRequired
+[2017.04.03-13.37.58:700][928]LogCascade: Non-seeded module ParticleModuleSpawn
+[2017.04.03-13.38.11:116][887]LogCascade: Non-seeded module ParticleModuleSpawn
+[2017.04.03-13.41.03:903][963]LogCascade: Quitting Cascade. FXSystem=0x0000000053955B20
+[2017.04.03-13.41.10:546][316]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.41.10:547][316]LogTemp:Display: Added material ShaderMap 0x000000006AB24480 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.41.10:564][316]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000006AB24480
+[2017.04.03-13.41.10:630][316]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.41.10:630][316]LogTemp:Display: Added material ShaderMap 0x0000000053542B00 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.41.10:638][316]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x0000000053542B00
+[2017.04.03-13.41.10:638][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.41.10:702][316]LogSlate: Took 0.032531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.03-13.41.11:572][335]LogTemp:Display: Finished compile of shader map 0x0000000053542B00
+[2017.04.03-13.41.11:572][335]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x0000000053542B00, marking material particle as finished
+[2017.04.03-13.41.11:572][335]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.41.11:607][336]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.03-13.41.11:607][336]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.03-13.41.11:607][336]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.03-13.41.14:129][516]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.41.14:129][516]LogTemp:Display: Added material ShaderMap 0x000000009ED9F580 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.41.14:132][516]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000009ED9F580
+[2017.04.03-13.41.14:138][516]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.41.14:139][516]LogTemp:Display: Added material ShaderMap 0x0000000068124480 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.41.14:141][516]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x0000000068124480
+[2017.04.03-13.41.14:141][516]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.41.14:331][522]LogTemp:Display: Finished compile of shader map 0x0000000068124480
+[2017.04.03-13.41.14:331][522]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x0000000068124480, marking material particle as finished
+[2017.04.03-13.41.14:331][522]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.41.14:370][523]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2017.04.03-13.41.14:370][523]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.03-13.41.14:370][523]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.04.03-13.41.23:478][694]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.41.23:478][694]LogTemp:Display: Added material ShaderMap 0x00000000ABFE9280 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.41.23:486][694]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x00000000ABFE9280
+[2017.04.03-13.41.23:489][694]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.41.23:489][694]LogTemp:Display: Added material ShaderMap 0x000000009F210100 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.41.23:494][694]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000009F210100
+[2017.04.03-13.41.23:495][694]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.41.24:046][709]LogTemp:Display: Finished compile of shader map 0x000000009F210100
+[2017.04.03-13.41.24:046][709]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x000000009F210100, marking material particle as finished
+[2017.04.03-13.41.24:046][709]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.41.24:087][710]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2017.04.03-13.41.24:087][710]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.04.03-13.41.24:087][710]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.42.04:759][195]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.42.04:760][195]LogTemp:Display: Added material ShaderMap 0x00000000B74C0F00 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.42.04:765][195]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x00000000B74C0F00
+[2017.04.03-13.42.04:765][195]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.42.05:642][210]LogTemp:Display: Finished compile of shader map 0x00000000B74C0F00
+[2017.04.03-13.42.05:642][210]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x00000000B74C0F00, marking material particle as finished
+[2017.04.03-13.42.05:642][210]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.42.05:974][211]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2017.04.03-13.42.05:974][211]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.04.03-13.42.05:974][211]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.42.16:687][437]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.42.16:714][437]LogTemp:Display: Added material ShaderMap 0x00000000B70EE080 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.42.16:719][437]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x00000000B70EE080
+[2017.04.03-13.42.16:719][437]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.42.17:321][453]LogTemp:Display: Finished compile of shader map 0x00000000B70EE080
+[2017.04.03-13.42.17:321][453]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x00000000B70EE080, marking material particle as finished
+[2017.04.03-13.42.17:322][453]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.42.17:952][495]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.42.17:953][495]LogTemp:Display: Added material ShaderMap 0x00000000B70ED980 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.42.17:958][495]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x00000000B70ED980
+[2017.04.03-13.42.17:958][495]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.42.18:687][507]LogTemp:Display: Finished compile of shader map 0x00000000B70ED980
+[2017.04.03-13.42.18:687][507]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x00000000B70ED980, marking material particle as finished
+[2017.04.03-13.42.18:687][507]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.42.19:020][508]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.42.19:020][508]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.42.19:020][508]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.42.32:962][834]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.42.32:962][834]LogTemp:Display: Added material ShaderMap 0x00000000B74C2E80 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.42.32:968][834]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x00000000B74C2E80
+[2017.04.03-13.42.32:968][834]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.42.33:027][835]LogSlate: Took 0.007747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.03-13.42.33:532][849]LogTemp:Display: Finished compile of shader map 0x00000000B74C2E80
+[2017.04.03-13.42.33:532][849]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x00000000B74C2E80, marking material particle as finished
+[2017.04.03-13.42.33:532][849]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.42.33:569][850]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.42.33:569][850]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.42.33:569][850]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.42.52:373][189]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.42.52:374][189]LogTemp:Display: Added material ShaderMap 0x000000007694F900 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.42.52:379][189]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000007694F900
+[2017.04.03-13.42.52:379][189]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.42.52:388][189]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.42.52:389][189]LogTemp:Display: Added material ShaderMap 0x0000000053542780 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.42.52:394][189]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x0000000053542780
+[2017.04.03-13.42.52:395][189]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.42.53:189][203]LogTemp:Display: Finished compile of shader map 0x0000000053542780
+[2017.04.03-13.42.53:189][203]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x0000000053542780, marking material particle as finished
+[2017.04.03-13.42.53:189][203]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.42.53:521][204]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.42.53:521][204]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.42.53:521][204]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.42.58:594][317]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.42.58:595][317]LogTemp:Display: Added material ShaderMap 0x000000006AB24100 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.42.58:601][317]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000006AB24100
+[2017.04.03-13.42.58:601][317]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.42.59:172][333]LogTemp:Display: Finished compile of shader map 0x000000006AB24100
+[2017.04.03-13.42.59:172][333]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x000000006AB24100, marking material particle as finished
+[2017.04.03-13.42.59:172][333]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.42.59:212][334]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.42.59:212][334]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.42.59:212][334]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.43.01:067][410]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.01:068][410]LogTemp:Display: Added material ShaderMap 0x00000000B74C2080 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.01:073][410]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x00000000B74C2080
+[2017.04.03-13.43.01:073][410]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.01:772][422]LogTemp:Display: Finished compile of shader map 0x00000000B74C2080
+[2017.04.03-13.43.01:772][422]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x00000000B74C2080, marking material particle as finished
+[2017.04.03-13.43.01:772][422]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.43.02:105][423]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.43.02:105][423]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.43.02:105][423]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.43.05:490][460]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.05:491][460]LogTemp:Display: Added material ShaderMap 0x000000009ED1B200 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.05:496][460]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000009ED1B200
+[2017.04.03-13.43.05:496][460]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.06:060][476]LogTemp:Display: Finished compile of shader map 0x000000009ED1B200
+[2017.04.03-13.43.06:060][476]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x000000009ED1B200, marking material particle as finished
+[2017.04.03-13.43.06:060][476]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.43.06:100][477]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.43.06:100][477]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.43.06:100][477]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.43.09:982][667]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.09:983][667]LogTemp:Display: Added material ShaderMap 0x000000009ED18F00 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.09:989][667]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000009ED18F00
+[2017.04.03-13.43.09:989][667]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.10:566][684]LogTemp:Display: Finished compile of shader map 0x000000009ED18F00
+[2017.04.03-13.43.10:566][684]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x000000009ED18F00, marking material particle as finished
+[2017.04.03-13.43.10:566][684]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.43.10:602][685]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.43.10:602][685]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.43.10:602][685]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.43.14:408][925]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.14:409][925]LogTemp:Display: Added material ShaderMap 0x000000007904A780 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.14:415][925]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000007904A780
+[2017.04.03-13.43.14:415][925]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.14:980][942]LogTemp:Display: Finished compile of shader map 0x000000007904A780
+[2017.04.03-13.43.14:981][942]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x000000007904A780, marking material particle as finished
+[2017.04.03-13.43.14:981][942]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.43.15:020][943]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.43.15:020][943]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.43.15:020][943]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.43.16:189][ 23]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.16:190][ 23]LogTemp:Display: Added material ShaderMap 0x0000000079048480 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.16:195][ 23]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x0000000079048480
+[2017.04.03-13.43.16:195][ 23]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.16:774][ 40]LogTemp:Display: Finished compile of shader map 0x0000000079048480
+[2017.04.03-13.43.16:774][ 40]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x0000000079048480, marking material particle as finished
+[2017.04.03-13.43.16:774][ 40]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.43.16:810][ 41]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.43.16:810][ 41]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.43.16:810][ 41]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.43.22:787][ 92]LogMaterialEditor: Applying material particle
+[2017.04.03-13.43.23:316][ 92]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.23:317][ 92]LogTemp:Display: Added material ShaderMap 0x0000000079048800 with Material 0x00000000069DAE80 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.23:327][ 92]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x0000000079048800
+[2017.04.03-13.43.23:327][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.23:366][ 92]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.23:367][ 92]LogTemp:Display: Added material ShaderMap 0x00000000B73B6780 with Material 0x0000000066B03700 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.23:376][ 92]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x00000000B73B6780
+[2017.04.03-13.43.23:377][ 92]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.23:378][ 92]LogTemp:Display: Added material ShaderMap 0x000000004BEB4B80 with Material 0x0000000066B03700 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.23:386][ 92]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x000000004BEB4B80
+[2017.04.03-13.43.23:388][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.23:408][ 92]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy particle, compiling. 
+[2017.04.03-13.43.23:409][ 92]LogTemp:Display: Added material ShaderMap 0x0000000079060800 with Material 0x00000000A2578D00 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.23:603][ 92]LogTemp:Display: Finished compile of shader map 0x0000000079060800
+[2017.04.03-13.43.23:603][ 92]LogTemp:Display: Shader map FDebugViewModeMaterialProxy particle complete, GameThreadShaderMap 0x0000000079060800, marking material FDebugViewModeMaterialProxy particle as finished
+[2017.04.03-13.43.23:603][ 92]LogTemp:Display: Marking material as finished 0x00000000A2578D00
+[2017.04.03-13.43.23:606][ 92]TextureStreamingBuild:Display: Compiling optional shaders took 0.204 seconds.
+[2017.04.03-13.43.23:911][100]LogTemp:Display: Finished compile of shader map 0x0000000079048800
+[2017.04.03-13.43.23:911][100]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x0000000079048800, marking material particle as finished
+[2017.04.03-13.43.23:911][100]LogTemp:Display: Marking material as finished 0x00000000069DAE80
+[2017.04.03-13.43.24:285][110]LogMaterialEditor: Saving and Compiling material particle
+[2017.04.03-13.43.24:731][110]LogTemp:Display: Finished compile of shader map 0x000000004BEB4B80
+[2017.04.03-13.43.24:731][110]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x000000004BEB4B80, marking material particle as finished
+[2017.04.03-13.43.24:731][110]LogTemp:Display: Marking material as finished 0x0000000066B03700
+[2017.04.03-13.43.24:768][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/particle" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/particle.uasset" SILENT=true
+[2017.04.03-13.43.24:779][110]LogSavePackage: Save=10.03ms
+[2017.04.03-13.43.24:779][110]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/particle3EC2292E4D13AB072375218A1F663B8E.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/particle.uasset'
+[2017.04.03-13.43.24:781][110]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/particle.uasset
+[2017.04.03-13.43.24:787][110]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2017.04.03-13.43.24:787][110]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.04.03-13.43.24:787][110]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.03-13.43.40:550][550]LogMaterial:Warning: Material /Game/particle.particle needed to have new flag set bUsedWithParticleSprites !
+[2017.04.03-13.43.40:553][550]LogMaterial: Missing cached shader map for material particle, compiling. 
+[2017.04.03-13.43.40:554][550]LogTemp:Display: Added material ShaderMap 0x0000000076A6DD00 with Material 0x0000000066B03700 to ShaderMapsBeingCompiled
+[2017.04.03-13.43.40:569][550]LogTemp:Display: Kicking off shader compilation for particle, GameThreadShaderMap 0x0000000076A6DD00
+[2017.04.03-13.43.40:569][550]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.03-13.43.42:169][589]LogTemp:Display: Finished compile of shader map 0x0000000076A6DD00
+[2017.04.03-13.43.42:169][589]LogTemp:Display: Shader map particle complete, GameThreadShaderMap 0x0000000076A6DD00, marking material particle as finished
+[2017.04.03-13.43.42:169][589]LogTemp:Display: Marking material as finished 0x0000000066B03700
+[2017.04.03-13.45.04:241][990]Cmd: SELECT NONE
+[2017.04.03-13.47.18:233][874]LogCascade: Quitting Cascade. FXSystem=0x000000006AA7EDE0
+[2017.04.03-13.47.25:053][931]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_0' or package '/Engine/Transient'.
+[2017.04.03-13.47.25:053][931]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_1' or package '/Engine/Transient'.
+[2017.04.03-13.47.25:126][931]LogTemp:Display: Removed shader map 0x000000006AB24480 from material 0x00000000069DAE80
+[2017.04.03-13.47.25:126][931]LogTemp:Display: Removed shader map 0x000000009ED9F580 from material 0x00000000069DAE80
+[2017.04.03-13.47.25:126][931]LogTemp:Display: Removed shader map 0x00000000ABFE9280 from material 0x00000000069DAE80
+[2017.04.03-13.47.25:126][931]LogTemp:Display: Removed shader map 0x000000007694F900 from material 0x00000000069DAE80
+[2017.04.03-13.47.33:802][379]LogEditorViewport: Clicking on Actor (LMB): Emitter (test)
+[2017.04.03-13.47.35:431][437]Cmd: DELETE
+[2017.04.03-13.47.35:431][437]Cmd: ACTOR DELETE
+[2017.04.03-13.47.35:432][437]LogEditorActor: Deleted Actor: Emitter
+[2017.04.03-13.47.35:459][437]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.04.03-13.47.37:166][503]LogEditorActor: Deleted Actor: Emitter
+[2017.04.03-13.47.37:174][503]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.03-13.48.07:383][646]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-13.48.07:418][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-13.48.07:451][646]PIE: New page: PIE session: kamer_06 (Apr 3, 2017, 5:48:07 PM)
+[2017.04.03-13.48.07:468][646]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.03-13.48.07:496][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028092s)
+[2017.04.03-13.48.07:496][646]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.03-13.48.07:497][646]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2017.04.03-13.48.07:503][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.041694s)
+[2017.04.03-13.48.07:544][646]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.03-13.48.07:551][646]LogInit: FAudioDevice initialized.
+[2017.04.03-13.48.07:657][646]LogLoad: Game class is 'GameModeBase'
+[2017.04.03-13.48.07:676][646]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.03-15.48.07
+[2017.04.03-13.48.07:690][646]LogWorld: Bringing up level for play took: 0.029504
+[2017.04.03-13.48.07:849][646]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.04.03-13.48.07:894][646]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.948
+[2017.04.03-13.49.09:769][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.03-13.49.09:948][380]Cmd: SELECT NONE
+[2017.04.03-13.49.19:714][693]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-13.49.19:724][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-13.49.19:724][693]PIE: New page: PIE session: kamer_06 (Apr 3, 2017, 5:49:19 PM)
+[2017.04.03-13.49.19:724][693]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.03-13.49.19:738][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013567s)
+[2017.04.03-13.49.19:738][693]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.03-13.49.19:738][693]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.04.03-13.49.19:739][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.014418s)
+[2017.04.03-13.49.19:750][693]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.03-13.49.19:755][693]LogInit: FAudioDevice initialized.
+[2017.04.03-13.49.19:785][693]LogLoad: Game class is 'GameModeBase'
+[2017.04.03-13.49.19:792][693]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.03-15.49.19
+[2017.04.03-13.49.19:792][693]LogWorld: Bringing up level for play took: 0.006740
+[2017.04.03-13.49.19:794][693]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.846
+[2017.04.03-13.49.53:176][506]LogEditorViewport: Clicking on Actor (LMB): Emitter (test)
+[2017.04.03-13.49.54:847][557]Cmd: SELECT NONE
+[2017.04.03-13.50.43:774][ 40]LogCascade: Non-seeded module ParticleModuleVelocity
+[2017.04.03-13.51.18:554][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/test.uasset" SILENT=true
+[2017.04.03-13.51.18:565][ 56]LogSavePackage: Save=9.54ms
+[2017.04.03-13.51.18:565][ 56]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/test18CFA52D4E1FE43735A3DFACB95D90B3.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/test.uasset'
+[2017.04.03-13.51.18:567][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/test.uasset
+[2017.04.03-13.51.23:784][222]LogEditorViewport: Clicking on Actor (LMB): Emitter (test)
+[2017.04.03-13.51.29:176][382]LogEditorActor: Deleted Actor: Emitter
+[2017.04.03-13.51.29:184][382]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.04.03-13.51.34:408][513]LogCascade: Quitting Cascade. FXSystem=0x0000000072AF11C0
+[2017.04.03-13.51.34:588][513]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_2' or package '/Engine/Transient'.
+[2017.04.03-13.51.35:939][561]LogEditorActor: Deleted Actor: Emitter
+[2017.04.03-13.51.35:946][561]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.03-13.52.47:095][821]LogSavePackage: Save=156.45ms
+[2017.04.03-13.52.47:095][821]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/kamer_06_Auto1BF3EC5B944AFA2047C7B27BC7926FDD1.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto1.umap'
+[2017.04.03-13.52.47:096][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto1.umap
+[2017.04.03-13.52.47:097][821]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/kamer_06' took 0.183
+[2017.04.03-13.52.47:097][821]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.183
+[2017.04.03-13.52.47:099][821]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/test] ([1] browsable assets)...
+[2017.04.03-13.52.47:104][821]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/test.test]
+[2017.04.03-13.52.47:104][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/test]
+[2017.04.03-13.52.47:104][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/test_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.03-13.52.47:111][821]LogSavePackage: Save=5.20ms
+[2017.04.03-13.52.47:111][821]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/test_Auto11009314F43486404B74A53AC4667AD19.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/test_Auto1.uasset'
+[2017.04.03-13.52.47:111][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/test_Auto1.uasset
+[2017.04.03-13.52.47:111][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/particle] ([1] browsable assets)...
+[2017.04.03-13.52.47:111][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/particle]
+[2017.04.03-13.52.47:111][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/particle" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/particle_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.03-13.52.47:118][821]LogSavePackage: Save=3.03ms
+[2017.04.03-13.52.47:118][821]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/particle_Auto1A08961C94C2B31076E62E6BA0FCB2E8A.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/particle_Auto1.uasset'
+[2017.04.03-13.52.47:118][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/particle_Auto1.uasset
+[2017.04.03-13.52.47:118][821]LogFileHelpers: Auto-saving content packages took 0.019
+[2017.04.03-13.53.13:272][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.03-13.53.13:453][ 98]Cmd: SELECT NONE
+[2017.04.03-13.53.35:635][809]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.04.03-13.53.45:081][ 99]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.03-13.53.45:091][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.03-13.53.45:091][ 99]PIE: New page: PIE session: kamer_06 (Apr 3, 2017, 5:53:45 PM)
+[2017.04.03-13.53.45:091][ 99]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.03-13.53.45:105][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013602s)
+[2017.04.03-13.53.45:105][ 99]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.03-13.53.45:105][ 99]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.04.03-13.53.45:105][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.014364s)
+[2017.04.03-13.53.45:117][ 99]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.03-13.53.45:124][ 99]LogInit: FAudioDevice initialized.
+[2017.04.03-13.53.45:154][ 99]LogLoad: Game class is 'GameModeBase'
+[2017.04.03-13.53.45:162][ 99]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.03-15.53.45
+[2017.04.03-13.53.45:162][ 99]LogWorld: Bringing up level for play took: 0.006471
+[2017.04.03-13.53.45:163][ 99]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.213
+[2017.04.03-13.54.27:439][444]LogEditorViewport: Clicking on Actor (LMB): Emitter (test)
+[2017.04.03-13.55.28:555][344]LogCascade: Non-seeded module ParticleModuleAcceleration
+[2017.04.03-13.57.27:319][615]Cmd: SELECT NONE
+[2017.04.03-14.01.34:964][917]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.01.48:939][319]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:506][740]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:540][742]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:583][743]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:584][743]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:658][745]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:658][745]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:659][745]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:732][747]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:774][748]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:775][748]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.03:892][751]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.04:070][756]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.04:140][758]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.04:214][760]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:358][793]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:392][794]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:392][794]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:393][794]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:394][794]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:395][794]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:426][795]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:426][795]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:466][796]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:508][797]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.05:561][798]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:855][835]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:856][835]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:856][835]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:889][836]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:890][836]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:890][836]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:891][836]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:923][837]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:924][837]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:925][837]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:925][837]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.06:964][838]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:008][839]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:167][843]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:168][843]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:169][843]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:201][844]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:202][844]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:277][846]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:317][847]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:351][848]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:392][849]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:393][849]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:393][849]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:394][849]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:395][849]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:435][850]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:436][850]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:436][850]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:437][850]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:438][850]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.07:571][853]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:017][895]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:017][895]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:018][895]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:019][895]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:050][896]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:084][897]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:085][897]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:125][898]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:127][898]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:127][898]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:210][900]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:703][914]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:703][914]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:736][915]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:737][915]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:737][915]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:738][915]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:739][915]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:771][916]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:771][916]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:853][918]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.02.09:930][920]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.03.39:028][866]LogSavePackage: Save=158.65ms
+[2017.04.03-14.03.39:028][866]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/kamer_06_Auto28C2250A94B46E201A15E18A6AE4D87B3.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto2.umap'
+[2017.04.03-14.03.39:029][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto2.umap
+[2017.04.03-14.03.39:031][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/kamer_06' took 0.180
+[2017.04.03-14.03.39:031][866]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.180
+[2017.04.03-14.03.39:032][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/test] ([1] browsable assets)...
+[2017.04.03-14.03.39:047][866]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/test.test]
+[2017.04.03-14.03.39:047][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/test]
+[2017.04.03-14.03.39:047][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/test_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.04.03-14.03.39:054][866]LogSavePackage: Save=5.69ms
+[2017.04.03-14.03.39:054][866]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/test_Auto2D67484274838504643361E9ECE393609.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/test_Auto2.uasset'
+[2017.04.03-14.03.39:055][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/test_Auto2.uasset
+[2017.04.03-14.03.39:055][866]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.04.03-14.04.15:695][154]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:695][154]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:696][154]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:696][154]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:697][154]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:737][156]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:737][156]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:779][157]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:780][157]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:814][158]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:815][158]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:899][160]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.15:899][160]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:760][328]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:760][328]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:761][328]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:830][330]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:831][330]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:831][330]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:832][330]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:833][330]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:873][331]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:874][331]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:909][332]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:910][332]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:956][333]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:957][333]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:998][334]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.21:999][334]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:044][335]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:044][335]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:170][338]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:170][338]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:204][339]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:205][339]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:242][340]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:242][340]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:403][344]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.22:404][344]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:226][423]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:227][423]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:261][424]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:261][424]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:304][425]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:305][425]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:307][425]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:308][425]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:349][426]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:350][426]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:391][427]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.25:392][427]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:824][467]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:824][467]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:900][469]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:901][469]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:936][470]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:936][470]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:937][470]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:937][470]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:980][471]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.26:980][471]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.04.31:421][599]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.21:002][459]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.24:028][547]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.33:150][813]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.37:526][941]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.39:348][980]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.41:834][ 31]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.43:975][ 75]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.45:877][114]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.48:405][186]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.50:219][239]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.53:440][333]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.55:731][400]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.05.57:511][452]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.00:251][532]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.02:719][604]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.04:296][650]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.05:397][682]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.08:240][765]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.09:582][802]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.10:258][821]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.11:228][849]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.14:480][944]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.15:177][964]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.16:275][996]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.22:782][186]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.23:845][217]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.26:138][284]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.28:432][351]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.30:680][416]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.31:370][436]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.32:230][461]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.32:987][483]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.34:088][515]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.34:675][532]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.37:617][618]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.39:399][670]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.40:265][695]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.41:260][724]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.48:718][829]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.48:895][834]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.50:968][894]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.06.53:478][967]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.12:691][146]LogCascade: Non-seeded module ParticleModuleSizeScaleBySpeed
+[2017.04.03-14.07.29:657][616]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.33:761][735]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.36:330][810]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.38:732][880]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.41:260][954]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.43:901][ 31]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.46:739][114]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.07.55:678][361]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.04:756][615]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.06:271][657]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.08:093][711]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.23:684][883]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.23:862][888]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.26:299][959]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.28:774][ 31]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.30:972][ 95]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.31:871][121]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.08.35:877][238]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.09.10:532][843]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.09.15:643][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/test.uasset" SILENT=true
+[2017.04.03-14.09.15:657][988]LogSavePackage: Save=11.85ms
+[2017.04.03-14.09.15:657][988]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/test284A3E8741B6401C551B3780F609934F.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/test.uasset'
+[2017.04.03-14.09.15:659][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/test.uasset
+[2017.04.03-14.09.30:106][419]LogCascade: Non-seeded module ParticleModuleSizeScaleBySpeed
+[2017.04.03-14.09.43:493][827]LogCascade: Non-seeded module ParticleModuleCollision
+[2017.04.03-14.09.50:421][ 41]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:296][352]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:296][352]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:297][352]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:297][352]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:298][352]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:327][353]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:359][354]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:399][355]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:439][356]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:439][356]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:478][357]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.00:479][357]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:346][383]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:346][383]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:347][383]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:347][383]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:348][383]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:378][384]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:378][384]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:409][385]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:410][385]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:449][386]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:449][386]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:488][387]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:488][387]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:489][387]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:489][387]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:526][388]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:527][388]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:527][388]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:568][389]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.01:569][389]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:526][418]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:527][418]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:527][418]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:528][418]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:528][418]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:529][418]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:558][419]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:558][419]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:590][420]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:590][420]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:630][421]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:630][421]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:669][422]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:670][422]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:708][423]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:709][423]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:749][424]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:750][424]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:788][425]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.02:789][425]LogParticles:Warning: MaxCount = 2516 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.10:173][654]LogParticles:Warning: MaxCount = 5032 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.17:786][895]LogParticles:Warning: MaxCount = 5032 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.21:553][ 14]LogParticles:Warning: MaxCount = 5032 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.26:592][ 92]LogCascade: Quitting Cascade. FXSystem=0x000000004B278400
+[2017.04.03-14.10.26:806][ 92]LogParticles:Warning: MaxCount = 5032 for Emitter ParticleSpriteEmitter_0 (/Game/test.test)
+[2017.04.03-14.10.26:806][ 92]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_3' or package '/Engine/Transient'.
+[2017.04.03-14.10.28:695][162]LogEditorActor: Deleted Actor: Emitter
+[2017.04.03-14.10.28:703][162]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.04.03-14.13.40:091][753]LogSavePackage: Save=159.78ms
+[2017.04.03-14.13.40:091][753]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/kamer_06_Auto345D90A3C416C94315B4D7CAFF9BDD4E5.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto3.umap'
+[2017.04.03-14.13.40:097][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto3.umap
+[2017.04.03-14.13.40:099][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/kamer_06' took 0.185
+[2017.04.03-14.13.40:099][753]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.185
+[2017.04.03-14.20.19:093][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/kamer_06" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.03-14.20.19:281][849]LogSavePackage: Save=162.30ms
+[2017.04.03-14.20.19:281][849]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/kamer_066D5ACBED483D93F0CE272BBEC227A5D0.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap'
+[2017.04.03-14.20.19:296][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap
+[2017.04.03-14.20.19:346][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/kamer_06_BuiltData" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset" SILENT=true
+[2017.04.03-14.20.19:744][849]LogSavePackage: Save=323.29ms
+[2017.04.03-14.20.19:744][849]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/kamer_06_BuiltData16FD749E4332B51DE8C35FBF16E48D26.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset'
+[2017.04.03-14.20.19:746][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset
+[2017.04.03-14.20.27:903][119]LogGameProjectGeneration: Created new project with 4 files (plus project files)
+[2017.04.03-14.20.27:919][120]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.04.03-14.20.29:847][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/particle" FILE="../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/particle.uasset" SILENT=true
+[2017.04.03-14.20.29:893][120]LogSavePackage: Save=6.72ms
+[2017.04.03-14.20.29:893][120]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/particle7C4C1CC44E40A658FAF458B8C7669583.tmp' to '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/particle.uasset'
+[2017.04.03-14.20.29:897][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/particle.uasset
+[2017.04.03-14.20.30:400][121]Cmd: QUIT_EDITOR
+[2017.04.03-14.20.31:731][121]LogExit: Preparing to exit.
+[2017.04.03-14.20.32:669][121]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/' was aborted.
+[2017.04.03-14.20.32:827][121]LogExit: Editor shut down
+[2017.04.03-14.20.32:828][121]LogExit: Transaction tracking system shut down
+[2017.04.03-14.20.32:828][121]LogTemp:Display: Removed shader map 0x00000000B73B6780 from material 0x0000000066B03700
+[2017.04.03-14.20.34:202][121]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.03-14.20.34:202][121]LogExit: Object subsystem successfully closed.
+[2017.04.03-14.20.34:369][121]LogD3D11RHI: Shutdown
+[2017.04.03-14.20.34:369][121]LogD3D11RHI: CleanupD3DDevice
+[2017.04.03-14.20.34:631][121]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.03-14.20.35:008][121]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (512)
+[2017.04.03-14.20.35:008][121]LogModuleManager: Shutting down and abandoning module MaterialEditor (510)
+[2017.04.03-14.20.35:008][121]LogModuleManager: Shutting down and abandoning module DistCurveEditor (508)
+[2017.04.03-14.20.35:008][121]LogModuleManager: Shutting down and abandoning module Cascade (506)
+[2017.04.03-14.20.35:008][121]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
+[2017.04.03-14.20.35:014][121]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
+[2017.04.03-14.20.35:014][121]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
+[2017.04.03-14.20.35:014][121]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
+[2017.04.03-14.20.35:014][121]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.03-14.20.35:015][121]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
+[2017.04.03-14.20.35:015][121]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
+[2017.04.03-14.20.35:015][121]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
+[2017.04.03-14.20.35:030][121]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Collections/' was aborted.
+[2017.04.03-14.20.35:030][121]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/Developers/Student/Collections/' was aborted.
+[2017.04.03-14.20.35:030][121]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Saved/Collections/' was aborted.
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (484)
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module ActorPickerMode (482)
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module GeometryMode (480)
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module TextureAlignMode (478)
+[2017.04.03-14.20.35:031][121]LogModuleManager: Shutting down and abandoning module BspMode (476)
+[2017.04.03-14.20.35:041][121]LogModuleManager: Shutting down and abandoning module HardwareSurvey (474)
+[2017.04.03-14.20.35:057][121]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (472)
+[2017.04.03-14.20.35:067][121]LogModuleManager: Shutting down and abandoning module AutomationWorker (470)
+[2017.04.03-14.20.35:074][121]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (468)
+[2017.04.03-14.20.35:081][121]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (466)
+[2017.04.03-14.20.35:092][121]LogModuleManager: Shutting down and abandoning module PlacementMode (465)
+[2017.04.03-14.20.35:092][121]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (462)
+[2017.04.03-14.20.35:092][121]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (460)
+[2017.04.03-14.20.35:092][121]LogModuleManager: Shutting down and abandoning module MfMediaFactory (458)
+[2017.04.03-14.20.35:092][121]LogModuleManager: Shutting down and abandoning module MfMediaEditor (456)
+[2017.04.03-14.20.35:092][121]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (454)
+[2017.04.03-14.20.35:093][121]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (452)
+[2017.04.03-14.20.35:093][121]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (450)
+[2017.04.03-14.20.35:093][121]LogModuleManager: Shutting down and abandoning module Media (449)
+[2017.04.03-14.20.35:093][121]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (446)
+[2017.04.03-14.20.35:093][121]LogModuleManager: Shutting down and abandoning module CharacterAI (444)
+[2017.04.03-14.20.35:093][121]LogModuleManager: Shutting down and abandoning module AudioCapture (442)
+[2017.04.03-14.20.35:099][121]LogModuleManager: Shutting down and abandoning module SequenceRecorder (441)
+[2017.04.03-14.20.35:113][121]LogModuleManager: Shutting down and abandoning module SmartSnapping (438)
+[2017.04.03-14.20.35:113][121]LogModuleManager: Shutting down and abandoning module SessionServices (436)
+[2017.04.03-14.20.35:113][121]LogModuleManager: Shutting down and abandoning module ViewportSnapping (434)
+[2017.04.03-14.20.35:114][121]LogModuleManager: Shutting down and abandoning module ViewportInteraction (432)
+[2017.04.03-14.20.35:114][121]LogModuleManager: Shutting down and abandoning module LogVisualizer (430)
+[2017.04.03-14.20.35:115][121]LogModuleManager: Shutting down and abandoning module IntroTutorials (428)
+[2017.04.03-14.20.35:115][121]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (427)
+[2017.04.03-14.20.35:115][121]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (424)
+[2017.04.03-14.20.35:115][121]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (422)
+[2017.04.03-14.20.35:115][121]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (420)
+[2017.04.03-14.20.35:115][121]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (418)
+[2017.04.03-14.20.35:129][121]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (417)
+[2017.04.03-14.20.36:075][121]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (414)
+[2017.04.03-14.20.36:075][121]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (412)
+[2017.04.03-14.20.36:075][121]LogModuleManager: Shutting down and abandoning module InputBindingEditor (410)
+[2017.04.03-14.20.36:082][121]LogModuleManager: Shutting down and abandoning module NiagaraEditor (408)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module MergeActors (406)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module SizeMap (404)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module TreeMap (402)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module ReferenceViewer (400)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (398)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module LocalizationService (397)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module HardwareTargeting (394)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (392)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module UndoHistory (390)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module UserFeedback (388)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module XmlParser (386)
+[2017.04.03-14.20.36:100][121]LogModuleManager: Shutting down and abandoning module Blutility (384)
+[2017.04.03-14.20.36:102][121]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (382)
+[2017.04.03-14.20.36:102][121]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (381)
+[2017.04.03-14.20.36:103][121]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (378)
+[2017.04.03-14.20.36:103][121]LogModuleManager: Shutting down and abandoning module SettingsEditor (376)
+[2017.04.03-14.20.36:109][121]LogModuleManager: Shutting down and abandoning module ProjectLauncher (374)
+[2017.04.03-14.20.36:109][121]LogModuleManager: Shutting down and abandoning module SessionFrontend (372)
+[2017.04.03-14.20.36:109][121]LogModuleManager: Shutting down and abandoning module ProfilerClient (370)
+[2017.04.03-14.20.36:109][121]LogModuleManager: Shutting down and abandoning module DeviceManager (368)
+[2017.04.03-14.20.36:122][121]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (367)
+[2017.04.03-14.20.36:172][121]LogModuleManager: Shutting down and abandoning module AutomationController (364)
+[2017.04.03-14.20.36:176][121]LogModuleManager: Shutting down and abandoning module AutomationWindow (362)
+[2017.04.03-14.20.36:187][121]LogModuleManager: Shutting down and abandoning module Layers (360)
+[2017.04.03-14.20.36:209][121]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (358)
+[2017.04.03-14.20.36:209][121]LogModuleManager: Shutting down and abandoning module DetailCustomizations (356)
+[2017.04.03-14.20.36:214][121]LogModuleManager: Shutting down and abandoning module PackagesDialog (354)
+[2017.04.03-14.20.36:215][121]LogModuleManager: Shutting down and abandoning module Persona (352)
+[2017.04.03-14.20.36:225][121]LogModuleManager: Shutting down and abandoning module AnimGraph (351)
+[2017.04.03-14.20.36:225][121]LogModuleManager: Shutting down and abandoning module Kismet (348)
+[2017.04.03-14.20.36:235][121]LogModuleManager: Shutting down and abandoning module GraphEditor (346)
+[2017.04.03-14.20.36:235][121]LogModuleManager: Shutting down and abandoning module ClassViewer (344)
+[2017.04.03-14.20.36:236][121]LogModuleManager: Shutting down and abandoning module Toolbox (342)
+[2017.04.03-14.20.36:240][121]LogModuleManager: Shutting down and abandoning module ModuleUI (340)
+[2017.04.03-14.20.36:240][121]LogModuleManager: Shutting down and abandoning module MovieSceneTools (338)
+[2017.04.03-14.20.36:247][121]LogModuleManager: Shutting down and abandoning module OutputLog (336)
+[2017.04.03-14.20.36:247][121]LogModuleManager: Shutting down and abandoning module GammaUI (334)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module Documentation (332)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (328)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module AnalyticsET (326)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module PortalServices (324)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module PortalRpc (322)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module MessagingRpc (320)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module AIModule (318)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module GameplayDebugger (317)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module AITestSuite (315)
+[2017.04.03-14.20.36:253][121]LogModuleManager: Shutting down and abandoning module ProfilerService (312)
+[2017.04.03-14.20.36:366][121]LogModuleManager: Shutting down and abandoning module TaskGraph (310)
+[2017.04.03-14.20.36:406][121]LogModuleManager: Shutting down and abandoning module SubstanceEditor (308)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module SteamVRController (306)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module SteamVR (304)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (302)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (300)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module OculusLibrary (298)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module OculusInput (296)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (294)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (292)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module CableComponent (290)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (288)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (284)
+[2017.04.03-14.20.36:425][121]LogModuleManager: Shutting down and abandoning module ToolbagImporter (282)
+[2017.04.03-14.20.36:427][121]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.04.03-14.20.36:427][121]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.04.03-14.20.36:428][121]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.04.03-14.20.36:428][121]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.04.03-14.20.36:434][121]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.04.03-14.20.36:434][121]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.04.03-14.20.36:434][121]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.04.03-14.20.36:434][121]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.04.03-14.20.36:434][121]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.04.03-14.20.36:446][121]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.04.03-14.20.36:455][121]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.04.03-14.20.36:455][121]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.04.03-14.20.36:455][121]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.04.03-14.20.36:455][121]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.04.03-14.20.36:455][121]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.04.03-14.20.36:461][121]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.04.03-14.20.36:474][121]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.04.03-14.20.36:478][121]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.04.03-14.20.36:479][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.04.03-14.20.36:479][121]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.04.03-14.20.36:479][121]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.04.03-14.20.36:479][121]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.04.03-14.20.36:489][121]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.04.03-14.20.36:495][121]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.04.03-14.20.36:496][121]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.04.03-14.20.36:519][121]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.04.03-14.20.36:519][121]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.04.03-14.20.36:523][121]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.04.03-14.20.36:524][121]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.04.03-14.20.36:524][121]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.04.03-14.20.36:524][121]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.04.03-14.20.36:524][121]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.04.03-14.20.36:624][121]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.04.03-14.20.36:724][121]LogModuleManager: Shutting down and abandoning module SubstanceCore (214)
+[2017.04.03-14.20.36:735][121]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.03-14.20.36:737][121]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.03-14.20.36:741][121]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.03-14.20.36:741][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.03-14.20.36:741][121]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.03-14.20.36:741][121]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.03-14.20.36:741][121]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.03-14.20.36:794][121]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.03-14.20.36:794][121]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.03-14.20.36:794][121]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.03-14.20.36:794][121]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.03-14.20.36:794][121]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.03-14.20.36:794][121]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.03-14.20.36:830][121]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.03-14.20.36:835][121]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.03-14.20.36:835][121]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.03-14.20.36:848][121]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.03-14.20.36:863][121]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.03-14.20.36:874][121]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.03-14.20.36:874][121]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.03-14.20.36:874][121]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.03-14.20.36:874][121]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.03-14.20.36:880][121]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.03-14.20.36:880][121]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.03-14.20.36:885][121]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.03-14.20.36:885][121]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.03-14.20.36:885][121]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.03-14.20.36:885][121]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.03-14.20.36:885][121]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.03-14.20.36:885][121]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.03-14.20.37:057][121]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.03-14.20.37:057][121]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Student/Documents/GitHub/UE4_test/UE4_github_test/Content/' was aborted.
+[2017.04.03-14.20.37:057][121]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.03-14.20.37:057][121]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/ToolbagImporter/Content/' was aborted.
+[2017.04.03-14.20.37:062][121]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.03-14.20.37:063][121]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.03-14.20.37:063][121]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.03-14.20.37:063][121]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.03-14.20.37:079][121]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.03-14.20.37:087][121]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.03-14.20.37:087][121]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.03-14.20.37:137][121]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.03-14.20.37:137][121]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.03-14.20.37:195][121]LogDerivedDataCache: Shutdown
+[2017.04.03-14.20.37:195][121]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.03-14.20.37:195][121]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.03-14.20.37:212][121]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.03-14.20.37:240][121]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.03-14.20.37:249][121]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.03-14.20.37:257][121]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.03-14.20.37:257][121]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.03-14.20.37:257][121]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.03-14.20.37:274][121]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.03-14.20.37:297][121]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.03-14.20.37:298][121]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.03-14.20.37:348][121]LogHMD: Oculus shutdown.
+[2017.04.03-14.20.37:348][121]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.03-14.20.37:348][121]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.03-14.20.37:348][121]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.03-14.20.37:348][121]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.03-14.20.37:348][121]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.03-14.20.37:431][121]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.03-14.20.37:441][121]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.03-14.20.37:441][121]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.03-14.20.37:441][121]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E8DC067-4B74-65C2-AC4B-32B887B1A66C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=21bc3e55492317095c0ab1b62979f3eb%7C2addced0c46b4c28afd65b8ca3384632%7C00004daa-21d0-4963-b36a-c6ffd69e5ddd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.03-14.20.37:468][121]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.03-14.20.37:474][121]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.03-14.20.37:474][121]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.03-14.20.37:475][121]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.03-14.20.37:475][121]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.03-14.20.37:475][121]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.03-14.20.37:506][121]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.03-14.20.37:506][121]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.03-14.20.37:506][121]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.03-14.20.37:526][121]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.03-14.20.37:526][121]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.03-14.20.37:526][121]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.03-14.20.37:526][121]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.03-14.20.37:526][121]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.03-14.20.37:526][121]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.03-14.20.37:526][121]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.03-14.20.37:539][121]LogExit: Exiting.
+[2017.04.03-14.20.37:556][121]Log file closed, 04/03/17 16:20:37
