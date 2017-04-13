@@ -1,0 +1,1279 @@
+﻿Log file open, 04/10/17 11:11:42
+LogInit:Display: Running engine for game: UE4_github_test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(558355101) SRandInit(558355101).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.109479
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.13.0(build = 361842) feature version = 0. Client runs version (prod = 1).1.13.0(build = 361842) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.10-09.11.44:872][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.10-09.11.44:872][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.10-09.11.44:896][  0]LogInit: Computer: IB50
+[2017.04.10-09.11.44:896][  0]LogInit: User: Student
+[2017.04.10-09.11.44:896][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.10-09.11.44:896][  0]LogInit: High frequency timer resolution =3.312685 MHz
+[2017.04.10-09.11.44:897][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.10-09.11.44:897][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.10-09.11.44:897][  0]LogMemory: Process Physical Memory: 269.95 MB used, 269.95 MB peak
+[2017.04.10-09.11.44:897][  0]LogMemory: Process Virtual Memory: 268.82 MB used, 268.82 MB peak
+[2017.04.10-09.11.44:897][  0]LogMemory: Physical Memory: 5510.91 MB used,  10815.17 MB free, 16326.09 MB total
+[2017.04.10-09.11.44:897][  0]LogMemory: Virtual Memory: 663.73 MB used,  10815.17 MB free, 8388608.00 MB total
+[2017.04.10-09.11.44:994][  0]LogTextLocalizationManager: No translations for ('nl-NL') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.10-09.11.45:587][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.10-09.11.46:081][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2000' (Feature Level 11_0)
+[2017.04.10-09.11.46:081][  0]LogD3D11RHI:       1990/0/7907 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.10-09.11.46:082][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.10-09.11.46:087][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.10-09.11.46:087][  0]LogD3D11RHI:     GPU DeviceId: 0xffe (for the marketing name, search the web for "GPU Device Id")
+[2017.04.10-09.11.46:087][  0]LogWindows: EnumDisplayDevices:
+[2017.04.10-09.11.46:088][  0]LogWindows:    0. 'NVIDIA Quadro K2000' (P:1 D:1)
+[2017.04.10-09.11.46:088][  0]LogWindows:    1. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.04.10-09.11.46:088][  0]LogWindows:    2. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.04.10-09.11.46:088][  0]LogWindows:    3. 'NVIDIA Quadro K2000' (P:0 D:0)
+[2017.04.10-09.11.46:088][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.04.10-09.11.46:088][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.04.10-09.11.46:088][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.04.10-09.11.46:088][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.10-09.11.46:088][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2000
+[2017.04.10-09.11.46:088][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.04.10-09.11.46:088][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.04.10-09.11.46:088][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.10-09.11.46:546][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.10-09.11.46:547][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.10-09.11.46:579][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.10-09.11.46:626][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Intermediate/Shaders/WorkingDirectory/16788/).
+[2017.04.10-09.11.46:626][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/0309EDEC41A6154F6B4CDF81143A64BB/'.
+[2017.04.10-09.11.46:626][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.10-09.11.47:773][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.10-09.11.47:819][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.10-09.11.47:865][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.10-09.11.47:911][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.10-09.11.47:972][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.10-09.11.48:032][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.10-09.11.48:093][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.10-09.11.48:154][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.10-09.11.48:206][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.10-09.11.48:268][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.10-09.11.48:327][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.10-09.11.48:387][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.10-09.11.48:449][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.10-09.11.48:510][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.10-09.11.48:569][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.10-09.11.48:693][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.10-09.11.48:693][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.10-09.11.48:727][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.10-09.11.48:846][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.10-09.11.48:877][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.10-09.11.48:937][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.10-09.11.49:013][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.10-09.11.49:063][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.10-09.11.49:132][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.10-09.11.49:132][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.10-09.11.49:677][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.10-09.11.50:660][  0]LogDerivedDataCache: Loaded boot cache 0.98s 61MB C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.10-09.11.50:661][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.10-09.11.50:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.10-09.11.50:661][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.10-09.11.50:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.10-09.11.50:661][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.10-09.11.50:717][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.10-09.11.50:730][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.10-09.11.50:744][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.10-09.11.50:748][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.10-09.11.50:748][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.10-09.11.51:069][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.10-09.11.51:071][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.10-09.11.51:285][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.10-09.11.51:334][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.10-09.11.51:383][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.10-09.11.51:383][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.10-09.11.51:383][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.10-09.11.51:880][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: ue4_github_test, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 268766832
+[2017.04.10-09.11.51:928][  0]LogAssetRegistry: FAssetRegistry took 0.0204 seconds to start up
+[2017.04.10-09.11.51:976][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.031778 seconds
+[2017.04.10-09.11.51:982][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.10-09.11.51:982][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.10-09.11.51:982][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.10-09.11.52:037][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.10-09.11.53:946][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.10-09.11.53:975][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.10-09.11.54:015][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.10-09.11.54:531][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.10-09.11.54:900][  0]SourceControl: Info Source control is disabled
+[2017.04.10-09.11.55:859][  0]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2017.04.10-09.11.56:335][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2017.04.10-09.11.56:755][  0]LogEngine: Initializing Engine...
+[2017.04.10-09.11.56:755][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.13.0, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.04.10-09.11.56:974][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.10-09.11.56:988][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.11.57:004][  0]LogInit: FAudioDevice initialized.
+[2017.04.10-09.11.57:031][  0]LogDerivedDataCache: Saved boot cache 0.03s 61MB C:/Users/Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.10-09.11.57:037][  0]LogInit: Texture streaming: Enabled
+[2017.04.10-09.11.57:108][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.10-09.11.57:232][  0]LogInit: Transaction tracking system initialized
+[2017.04.10-09.11.57:553][  0]BlueprintLog: New page: Editor Load
+[2017.04.10-09.11.58:405][  0]LocalizationService: Info Localization service is disabled
+[2017.04.10-09.11.59:125][  0]LogConsoleResponse:Display: 
+[2017.04.10-09.11.59:240][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.10-09.11.59:240][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.10-09.11.59:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/' took 0.01s
+[2017.04.10-09.12.00:368][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.10-09.12.00:370][  0]LightingResults: New page: Lighting Build
+[2017.04.10-09.12.00:410][  0]MapCheck: New page: Map Check
+[2017.04.10-09.12.00:410][  0]LightingResults: New page: Lighting Build
+[2017.04.10-09.12.00:577][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.10-09.12.00:591][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.10-09.12.00:595][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.10-09.12.00:598][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.10-09.12.00:635][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.162ms to complete.
+[2017.04.10-09.12.00:635][  0]LogFileHelpers: Loading map 'Template_Default' took 0.267
+[2017.04.10-09.12.00:780][  0]LogCollectionManager: Loaded 0 collections in 0.001287 seconds
+[2017.04.10-09.12.00:855][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Collections/' took 0.01s
+[2017.04.10-09.12.00:855][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Developers/Student/Collections/' took 0.01s
+[2017.04.10-09.12.00:855][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Collections/' took 0.01s
+[2017.04.10-09.12.00:855][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.04.10-09.12.00:862][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2287 classes and 468 folders.
+[2017.04.10-09.12.00:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.10-09.12.00:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.10-09.12.00:931][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.10-09.12.00:973][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.10-09.12.01:009][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.10-09.12.01:055][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.10-09.12.01:060][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.10-09.12.01:134][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.10-09.12.01:134][  0]LogLoad: (Engine Initialization) Total time: 19.54 seconds
+[2017.04.10-09.12.01:134][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.04.10-09.12.01:134][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.10-09.12.01:134][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.10-09.12.01:473][  0]LogOcInput: OculusInput pre-init called
+[2017.04.10-09.12.01:512][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.13.0
+[2017.04.10-09.12.01:540][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.10-09.12.01:545][  0]LogSlate: Took 0.003813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.10-09.12.01:555][  0]LogSlate: Took 0.003861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.10-09.12.01:568][  0]LogSlate: Took 0.003779 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.10-09.12.01:781][  0]LogRenderer: Reallocating scene render targets to support 1288x624 NumSamples 1 (Frame:2).
+[2017.04.10-09.12.01:876][  1]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.10-09.12.02:459][  2]LogAssetRegistry: Asset discovery search completed in 10.5511 seconds
+[2017.04.10-09.12.02:459][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.04.10-09.12.02:459][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.04.10-09.12.18:866][491]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.10-09.12.19:677][491]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.10-09.12.20:656][491]LogLinker:Warning: Can't find file '/Game/props/tech/tech_02_buis_01'
+[2017.04.10-09.12.20:668][491]LogLinker:Warning: Can't find file for asset '/Game/props/tech/tech_02_buis_01' while loading ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap.
+[2017.04.10-09.12.20:669][491]LoadErrors:Error: Error /Game/Maps/kamer_06 : Can't find file for asset. /Game/props/tech/tech_02_buis_01
+[2017.04.10-09.12.20:913][491]LogLinker:Warning: Can't find file '/Game/props/tech/tech_02_buis_01'
+[2017.04.10-09.12.20:913][491]LogLinker:Warning: Can't find file for asset '/Game/props/tech/tech_02_buis_01' while loading ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap.
+[2017.04.10-09.12.21:091][491]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.04.10-09.12.21:181][491]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.10-09.12.21:315][491]LogSlate: Took 0.032250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.10-09.12.21:431][491]LogSlate: Took 0.109421 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2017.04.10-09.12.21:441][491]LogLinker:Warning: Can't find file '/Game/props/tech/tech_02_buis_01'
+[2017.04.10-09.12.21:442][491]LoadErrors: Info Failed to load /Game/props/tech/tech_02_buis_01.tech_02_buis_01 Referenced by tech_02_buis_01_139
+[2017.04.10-09.12.21:442][491]LogLinker:Warning: Can't find file for asset '/Game/props/tech/tech_02_buis_01' while loading NULL.
+[2017.04.10-09.12.21:443][491]LogLinker:Warning: Can't find file '/Game/props/tech/tech_02_buis_01'
+[2017.04.10-09.12.21:443][491]LoadErrors: Info Failed to load /Game/props/tech/tech_02_buis_01.tech_02_buis_01 Referenced by tech_02_buis_145
+[2017.04.10-09.12.21:443][491]LogLinker:Warning: Can't find file for asset '/Game/props/tech/tech_02_buis_01' while loading NULL.
+[2017.04.10-09.12.22:142][491]LogTexture:Display: Building textures: tech_01_Tech_Normal (BC5, 2048X2048) - 80 MB total VRAM
+[2017.04.10-09.12.22:505][491]LogTexture:Display: Building textures: tech_01_Tech_Emissive (AutoDXT, 2048X2048) - 80 MB total VRAM
+[2017.04.10-09.12.22:865][491]LogTexture:Display: Building textures: tech_01_Tech_BaseColor (AutoDXT, 2048X2048) - 80 MB total VRAM
+[2017.04.10-09.12.23:793][491]LogTexture:Display: Building textures: tech_01_Tech_OcclusionRoughnessMetallic (AutoDXT, 2048X2048) - 80 MB total VRAM
+[2017.04.10-09.12.24:743][491]LogTexture:Display: Building textures: tech_01_Tech_Opacity (BGRA8, 2048X2048) - 80 MB total VRAM
+[2017.04.10-09.12.25:299][491]LogMaterial: Missing cached shader map for material Tech, compiling. 
+[2017.04.10-09.12.25:329][491]LogTemp:Display: Added material ShaderMap 0x00000000C7E8B900 with Material 0x00000000233A9A80 to ShaderMapsBeingCompiled
+[2017.04.10-09.12.25:413][491]LogTemp:Display: Kicking off shader compilation for Tech, GameThreadShaderMap 0x00000000C7E8B900
+[2017.04.10-09.12.25:414][491]LogStaticMesh: Building static mesh tech_02_computer_kast...
+[2017.04.10-09.12.25:450][491]LogStaticMesh: Built static mesh [0.04s] /Game/props/tech/tech_02_computer_kast.tech_02_computer_kast
+[2017.04.10-09.12.26:458][491]LogStaticMesh: Building static mesh tech_02_tafel...
+[2017.04.10-09.12.26:467][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_tafel.tech_02_tafel
+[2017.04.10-09.12.26:469][491]LogStaticMesh: Building static mesh tech_02_server_kast...
+[2017.04.10-09.12.26:477][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_server_kast.tech_02_server_kast
+[2017.04.10-09.12.26:478][491]LogStaticMesh: Building static mesh tech_02_server_deur...
+[2017.04.10-09.12.26:482][491]LogStaticMesh: Built static mesh [0.00s] /Game/props/tech/tech_02_server_deur.tech_02_server_deur
+[2017.04.10-09.12.26:483][491]LogStaticMesh: Building static mesh tech_02_server014...
+[2017.04.10-09.12.26:488][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_server014.tech_02_server014
+[2017.04.10-09.12.26:489][491]LogStaticMesh: Building static mesh tech_02_server012...
+[2017.04.10-09.12.26:494][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_server012.tech_02_server012
+[2017.04.10-09.12.26:495][491]LogStaticMesh: Building static mesh tech_02_server010...
+[2017.04.10-09.12.26:501][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_server010.tech_02_server010
+[2017.04.10-09.12.26:502][491]LogStaticMesh: Building static mesh tech_02_rug_stoel...
+[2017.04.10-09.12.26:603][491]LogStaticMesh: Built static mesh [0.10s] /Game/props/tech/tech_02_rug_stoel.tech_02_rug_stoel
+[2017.04.10-09.12.26:618][491]LogStaticMesh: Building static mesh tech_02_onderzoek_tube_02...
+[2017.04.10-09.12.26:646][491]LogStaticMesh: Built static mesh [0.03s] /Game/props/tech/tech_02_onderzoek_tube_02.tech_02_onderzoek_tube_02
+[2017.04.10-09.12.26:651][491]LogStaticMesh: Building static mesh tech_02_onderzoek_tube_01...
+[2017.04.10-09.12.26:665][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_onderzoek_tube_01.tech_02_onderzoek_tube_01
+[2017.04.10-09.12.26:667][491]LogStaticMesh: Building static mesh tech_02_keyboard...
+[2017.04.10-09.12.26:985][491]LogStaticMesh: Built static mesh [0.32s] /Game/props/tech/tech_02_keyboard.tech_02_keyboard
+[2017.04.10-09.12.27:005][491]LogStaticMesh: Building static mesh tech_02_Kast...
+[2017.04.10-09.12.27:011][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_Kast.tech_02_Kast
+[2017.04.10-09.12.27:022][491]LogStaticMesh: Building static mesh tech_02_computer_scherm...
+[2017.04.10-09.12.27:035][491]LogStaticMesh: Built static mesh [0.01s] /Game/props/tech/tech_02_computer_scherm.tech_02_computer_scherm
+[2017.04.10-09.12.27:356][491]LogTexture:Display: Building textures: AOMaterialMask0_1 (BC4, 1024X512) - 189 MB total VRAM
+[2017.04.10-09.12.27:386][491]LogTexture:Display: Building textures: AOMaterialMask0_2 (BC4, 1024X512) - 189 MB total VRAM
+[2017.04.10-09.12.27:412][491]LogTexture:Display: Building textures: AOMaterialMask0_3 (BC4, 256X128) - 189 MB total VRAM
+[2017.04.10-09.12.27:415][491]LogTexture:Display: Building textures: AOMaterialMask0_4 (BC4, 64X32) - 189 MB total VRAM
+[2017.04.10-09.12.27:452][491]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 189 MB total VRAM
+[2017.04.10-09.12.27:882][491]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 189 MB total VRAM
+[2017.04.10-09.12.28:211][491]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256) - 189 MB total VRAM
+[2017.04.10-09.12.28:238][491]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64) - 189 MB total VRAM
+[2017.04.10-09.12.28:263][491]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 189 MB total VRAM
+[2017.04.10-09.12.28:564][491]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 189 MB total VRAM
+[2017.04.10-09.12.28:765][491]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256) - 189 MB total VRAM
+[2017.04.10-09.12.28:782][491]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64) - 189 MB total VRAM
+[2017.04.10-09.12.28:797][491]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024) - 189 MB total VRAM
+[2017.04.10-09.12.29:068][491]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.12.29:090][491]Cmd: MAP LOAD FILE="../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.10-09.12.29:090][491]LightingResults: New page: Lighting Build
+[2017.04.10-09.12.29:091][491]LoadErrors: New page: Loading map: kamer_06.umap
+[2017.04.10-09.12.29:092][491]MapCheck: New page: Map Check
+[2017.04.10-09.12.29:092][491]LightingResults: New page: Lighting Build
+[2017.04.10-09.12.29:126][491]LogTemp:Display: Finished compile of shader map 0x00000000C7E8B900
+[2017.04.10-09.12.29:126][491]LogTemp:Display: Shader map Tech complete, GameThreadShaderMap 0x00000000C7E8B900, marking material Tech as finished
+[2017.04.10-09.12.29:126][491]LogTemp:Display: Marking material as finished 0x00000000233A9A80
+[2017.04.10-09.12.29:141][491]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.10-09.12.29:159][491]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.10-09.12.29:213][491]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.017ms to complete.
+[2017.04.10-09.12.29:213][491]LogFileHelpers: Loading map 'kamer_06' took 0.124
+[2017.04.10-09.16.46:244][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tech_02_Kast3)
+[2017.04.10-09.16.47:090][675]Cmd: DELETE
+[2017.04.10-09.16.47:090][675]Cmd: ACTOR DELETE
+[2017.04.10-09.16.47:093][675]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.10-09.16.47:113][675]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.04.10-09.18.00:405][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tech_02_Kast2)
+[2017.04.10-09.18.05:727][472]Cmd: SELECT NONE
+[2017.04.10-09.18.23:334][227]LogSavePackage: Save=205.62ms
+[2017.04.10-09.18.23:334][227]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_0688F3C09C439BE1B95F430A8DD8E39BCC.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap'
+[2017.04.10-09.18.23:338][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap
+[2017.04.10-09.18.23:710][227]LogSavePackage: Save=337.69ms
+[2017.04.10-09.18.23:710][227]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_BuiltData5CF4A68240791A21AB4F3AB49C10648F.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset'
+[2017.04.10-09.18.23:713][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset
+[2017.04.10-09.22.07:709][288]Cmd: SELECT NONE
+[2017.04.10-09.39.57:117][905]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (scene_04)
+[2017.04.10-09.39.58:555][957]Cmd: DELETE
+[2017.04.10-09.39.58:555][957]Cmd: ACTOR DELETE
+[2017.04.10-09.39.58:556][957]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.04.10-09.39.58:579][957]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.04.10-09.40.03:290][137]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-09.40.03:322][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-09.40.03:366][137]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 1:40:03 PM)
+[2017.04.10-09.40.03:388][137]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-09.40.03:469][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081067s)
+[2017.04.10-09.40.03:470][137]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.40.03:470][137]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2017.04.10-09.40.03:470][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.087874s)
+[2017.04.10-09.40.03:510][137]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.40.03:516][137]LogInit: FAudioDevice initialized.
+[2017.04.10-09.40.03:641][137]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-09.40.03:704][137]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-11.40.03
+[2017.04.10-09.40.03:712][137]LogWorld: Bringing up level for play took: 0.015305
+[2017.04.10-09.40.04:457][137]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.10-09.40.04:513][137]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.916
+[2017.04.10-09.40.04:564][137]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2017.04.10-09.40.21:143][915]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (animation_test_02)
+[2017.04.10-09.40.24:958][ 71]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-09.40.24:969][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-09.40.24:969][ 71]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 1:40:24 PM)
+[2017.04.10-09.40.24:969][ 71]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-09.40.24:986][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016417s)
+[2017.04.10-09.40.24:986][ 71]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.40.24:986][ 71]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.04.10-09.40.24:987][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.017257s)
+[2017.04.10-09.40.24:998][ 71]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.40.25:003][ 71]LogInit: FAudioDevice initialized.
+[2017.04.10-09.40.25:029][ 71]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-09.40.25:036][ 71]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-11.40.25
+[2017.04.10-09.40.25:036][ 71]LogWorld: Bringing up level for play took: 0.006580
+[2017.04.10-09.40.25:038][ 71]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.56
+[2017.04.10-09.40.43:002][915]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (animation_test_02)
+[2017.04.10-09.40.45:595][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-09.40.45:606][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-09.40.45:607][ 24]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 1:40:45 PM)
+[2017.04.10-09.40.45:607][ 24]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-09.40.45:622][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015760s)
+[2017.04.10-09.40.45:623][ 24]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.40.45:623][ 24]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2017.04.10-09.40.45:623][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.016594s)
+[2017.04.10-09.40.45:634][ 24]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.40.45:640][ 24]LogInit: FAudioDevice initialized.
+[2017.04.10-09.40.45:669][ 24]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-09.40.45:677][ 24]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-11.40.45
+[2017.04.10-09.40.45:677][ 24]LogWorld: Bringing up level for play took: 0.006710
+[2017.04.10-09.40.45:678][ 24]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.081
+[2017.04.10-09.40.46:793][ 72]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-09.40.46:804][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-09.40.46:804][ 72]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 1:40:46 PM)
+[2017.04.10-09.40.46:804][ 72]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-09.40.46:821][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016584s)
+[2017.04.10-09.40.46:821][ 72]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.40.46:821][ 72]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2017.04.10-09.40.46:821][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.017431s)
+[2017.04.10-09.40.46:834][ 72]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.40.46:838][ 72]LogInit: FAudioDevice initialized.
+[2017.04.10-09.40.46:868][ 72]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-09.40.46:875][ 72]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-11.40.46
+[2017.04.10-09.40.46:875][ 72]LogWorld: Bringing up level for play took: 0.006492
+[2017.04.10-09.40.46:876][ 72]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.721
+[2017.04.10-09.40.47:678][106]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-09.40.47:688][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-09.40.47:689][106]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 1:40:47 PM)
+[2017.04.10-09.40.47:689][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-09.40.47:704][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014932s)
+[2017.04.10-09.40.47:704][106]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.40.47:704][106]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2017.04.10-09.40.47:704][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.015705s)
+[2017.04.10-09.40.47:715][106]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.40.47:719][106]LogInit: FAudioDevice initialized.
+[2017.04.10-09.40.47:750][106]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-09.40.47:758][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-11.40.47
+[2017.04.10-09.40.47:758][106]LogWorld: Bringing up level for play took: 0.006666
+[2017.04.10-09.40.47:759][106]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.161
+[2017.04.10-09.40.49:336][170]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-09.40.49:347][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-09.40.49:347][170]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 1:40:49 PM)
+[2017.04.10-09.40.49:347][170]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-09.40.49:362][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015172s)
+[2017.04.10-09.40.49:363][170]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.40.49:363][170]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.04.10-09.40.49:363][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.015940s)
+[2017.04.10-09.40.49:374][170]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.40.49:379][170]LogInit: FAudioDevice initialized.
+[2017.04.10-09.40.49:406][170]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-09.40.49:413][170]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-11.40.49
+[2017.04.10-09.40.49:414][170]LogWorld: Bringing up level for play took: 0.006845
+[2017.04.10-09.40.49:415][170]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.183
+[2017.04.10-09.40.54:273][389]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-09.40.54:283][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-09.40.54:284][389]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 1:40:54 PM)
+[2017.04.10-09.40.54:284][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-09.40.54:299][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015649s)
+[2017.04.10-09.40.54:300][389]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-09.40.54:300][389]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.04.10-09.40.54:300][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.016518s)
+[2017.04.10-09.40.54:311][389]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-09.40.54:317][389]LogInit: FAudioDevice initialized.
+[2017.04.10-09.40.54:344][389]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-09.40.54:352][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-11.40.54
+[2017.04.10-09.40.54:352][389]LogWorld: Bringing up level for play took: 0.006659
+[2017.04.10-09.40.54:353][389]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.755
+[2017.04.10-09.41.35:498][948]LogSlate: Took 0.012775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.10-09.41.35:785][948]LogSavePackage: Save=215.60ms
+[2017.04.10-09.41.35:785][948]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_Auto1C13F087543CDA804F01ED797DBD4D6CC.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto1.umap'
+[2017.04.10-09.41.35:788][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto1.umap
+[2017.04.10-09.41.35:796][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/kamer_06' took 0.247
+[2017.04.10-09.41.35:796][948]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.247
+[2017.04.10-10.22.18:829][297]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.10-10.57.48:142][195]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.10-10.58.13:293][503]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_BaseColor.png]
+[2017.04.10-10.58.13:301][503]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_BaseColor.png)
+[2017.04.10-10.58.13:623][503]LogTexture:Display: Building textures: tech_01_Tech_BaseColor (AutoDXT, 2048X2048) - 801 MB total VRAM
+[2017.04.10-10.58.15:380][503]LogEditorFactories: -- imported successfully
+[2017.04.10-10.58.15:418][503]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Emissive.png]
+[2017.04.10-10.58.15:419][503]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Emissive.png)
+[2017.04.10-10.58.15:581][503]LogTexture:Display: Building textures: tech_01_Tech_Emissive (AutoDXT, 2048X2048) - 798 MB total VRAM
+[2017.04.10-10.58.16:021][503]LogEditorFactories: -- imported successfully
+[2017.04.10-10.58.16:035][503]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Normal.png]
+[2017.04.10-10.58.16:040][503]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Normal.png)
+[2017.04.10-10.58.16:261][503]LogTexture:Display: Building textures: tech_01_Tech_Normal (BC5, 2048X2048) - 793 MB total VRAM
+[2017.04.10-10.58.16:716][503]LogEditorFactories: -- imported successfully
+[2017.04.10-10.58.16:732][503]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_OcclusionRoughnessMetallic.png]
+[2017.04.10-10.58.16:743][503]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_OcclusionRoughnessMetallic.png)
+[2017.04.10-10.58.17:007][503]LogTexture:Display: Building textures: tech_01_Tech_OcclusionRoughnessMetallic (AutoDXT, 2048X2048) - 790 MB total VRAM
+[2017.04.10-10.58.18:755][503]LogEditorFactories: -- imported successfully
+[2017.04.10-10.58.25:724][525]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.10-10.58.26:226][526]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.10-10.58.36:574][553]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/kamer_06' took 0.008
+[2017.04.10-10.58.36:576][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_BaseColor] ([1] browsable assets)...
+[2017.04.10-10.58.36:592][553]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_BaseColor.tech_01_Tech_BaseColor]
+[2017.04.10-10.58.36:592][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_BaseColor]
+[2017.04.10-10.58.36:639][553]LogSavePackage: Save=32.19ms
+[2017.04.10-10.58.36:639][553]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_BaseColor_Auto2C3E0BE0E485CE3F85E353A815DD1391C.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_BaseColor_Auto2.uasset'
+[2017.04.10-10.58.36:641][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_BaseColor_Auto2.uasset
+[2017.04.10-10.58.36:641][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_Emissive] ([1] browsable assets)...
+[2017.04.10-10.58.36:646][553]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_Emissive.tech_01_Tech_Emissive]
+[2017.04.10-10.58.36:646][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_Emissive]
+[2017.04.10-10.58.36:661][553]LogSavePackage: Save=9.10ms
+[2017.04.10-10.58.36:661][553]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Emissive_Auto2BB446399451221AEB901698A6F18864D.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Emissive_Auto2.uasset'
+[2017.04.10-10.58.36:662][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Emissive_Auto2.uasset
+[2017.04.10-10.58.36:662][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_Normal] ([1] browsable assets)...
+[2017.04.10-10.58.36:671][553]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_Normal.tech_01_Tech_Normal]
+[2017.04.10-10.58.36:671][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_Normal]
+[2017.04.10-10.58.36:701][553]LogSavePackage: Save=12.26ms
+[2017.04.10-10.58.36:701][553]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Normal_Auto27762186B40DE8CA17CEAF691D7304955.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Normal_Auto2.uasset'
+[2017.04.10-10.58.36:702][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Normal_Auto2.uasset
+[2017.04.10-10.58.36:703][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2017.04.10-10.58.36:711][553]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic.tech_01_Tech_OcclusionRoughnessMetallic]
+[2017.04.10-10.58.36:711][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic]
+[2017.04.10-10.58.36:762][553]LogSavePackage: Save=14.65ms
+[2017.04.10-10.58.36:762][553]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_OcclusionRoughnessMetallic_Auto2D18364144ED01C674388BFAC00E8C6BB.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic_Auto2.uasset'
+[2017.04.10-10.58.36:763][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic_Auto2.uasset
+[2017.04.10-10.58.36:764][553]LogFileHelpers: Auto-saving content packages took 0.188
+[2017.04.10-10.59.29:424][825]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_BaseColor.tga]
+[2017.04.10-10.59.29:463][825]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_BaseColor.tga)
+[2017.04.10-10.59.29:597][825]LogTexture:Display: Building textures: tech_01_Tech_BaseColor (AutoDXT, 2048X2048) - 801 MB total VRAM
+[2017.04.10-10.59.31:347][825]LogEditorFactories: -- imported successfully
+[2017.04.10-10.59.31:396][825]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Emissive.tga]
+[2017.04.10-10.59.31:475][825]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Emissive.tga)
+[2017.04.10-10.59.31:582][825]LogTexture:Display: Building textures: tech_01_Tech_Emissive (AutoDXT, 2048X2048) - 798 MB total VRAM
+[2017.04.10-10.59.31:933][825]LogEditorFactories: -- imported successfully
+[2017.04.10-10.59.31:974][825]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Normal.tga]
+[2017.04.10-10.59.32:004][825]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Normal.tga)
+[2017.04.10-10.59.32:111][825]LogTexture:Display: Building textures: tech_01_Tech_Normal (BC5, 2048X2048) - 793 MB total VRAM
+[2017.04.10-10.59.32:422][825]LogEditorFactories: -- imported successfully
+[2017.04.10-10.59.32:461][825]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_OcclusionRoughnessMetallic.tga]
+[2017.04.10-10.59.32:491][825]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_OcclusionRoughnessMetallic.tga)
+[2017.04.10-10.59.32:604][825]LogTexture:Display: Building textures: tech_01_Tech_OcclusionRoughnessMetallic (AutoDXT, 2048X2048) - 790 MB total VRAM
+[2017.04.10-10.59.34:265][825]LogEditorFactories: -- imported successfully
+[2017.04.10-10.59.34:307][825]LogEditorFactories: Performing atomic reimport of [C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Opacity.tga]
+[2017.04.10-10.59.34:341][825]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Student/Google Drive/School/afstuderen/3D/assets/props/props_01/tech/tex/tech_01_Tech_Opacity.tga)
+[2017.04.10-10.59.34:395][825]LogTexture:Display: Building textures: tech_01_Tech_Opacity (BGRA8, 2048X2048) - 769 MB total VRAM
+[2017.04.10-10.59.35:102][825]LogEditorFactories: -- imported successfully
+[2017.04.10-11.00.07:912][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (omgeving_muur_02_muur_5)
+[2017.04.10-11.00.08:764][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (omgeving_muur_02_muur_5)
+[2017.04.10-11.00.55:246][941]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.00.55:258][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.00.55:258][941]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:00:55 PM)
+[2017.04.10-11.00.55:258][941]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.00.55:342][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083450s)
+[2017.04.10-11.00.55:342][941]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.00.55:342][941]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.04.10-11.00.55:343][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.084357s)
+[2017.04.10-11.00.55:356][941]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.00.55:368][941]LogInit: FAudioDevice initialized.
+[2017.04.10-11.00.55:398][941]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.00.55:406][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.00.55
+[2017.04.10-11.00.55:406][941]LogWorld: Bringing up level for play took: 0.007317
+[2017.04.10-11.00.55:407][941]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.253
+[2017.04.10-11.00.59:530][ 84]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (baked_alien_idle_60fps)
+[2017.04.10-11.01.14:346][667]Cmd: SELECT NONE
+[2017.04.10-11.01.20:433][918]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.01.20:444][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.01.20:444][918]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:01:20 PM)
+[2017.04.10-11.01.20:444][918]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.01.20:460][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015817s)
+[2017.04.10-11.01.20:460][918]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.01.20:460][918]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.04.10-11.01.20:460][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.016552s)
+[2017.04.10-11.01.20:471][918]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.01.20:476][918]LogInit: FAudioDevice initialized.
+[2017.04.10-11.01.20:506][918]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.01.20:514][918]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.01.20
+[2017.04.10-11.01.20:514][918]LogWorld: Bringing up level for play took: 0.007165
+[2017.04.10-11.01.20:516][918]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.855
+[2017.04.10-11.02.16:606][601]MapCheck: New page: Map Check
+[2017.04.10-11.02.16:677][601]Cmd: MAP REBUILD ALLVISIBLE
+[2017.04.10-11.02.16:678][601]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.04.10-11.02.17:609][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.04.10-11.02.17:610][601]LogTemp:Display: Added material ShaderMap 0x00000000D4A56B00 with Material 0x000000006A5AD300 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:613][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x00000000D4A56B00
+[2017.04.10-11.02.17:620][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_048_Old_MAT, compiling. 
+[2017.04.10-11.02.17:621][601]LogTemp:Display: Added material ShaderMap 0x00000000D860B200 with Material 0x000000006A5AEE00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:623][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Wood_048_Old_MAT, GameThreadShaderMap 0x00000000D860B200
+[2017.04.10-11.02.17:625][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.04.10-11.02.17:626][601]LogTemp:Display: Added material ShaderMap 0x00000000D860AB00 with Material 0x00000000E873EE00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:628][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, GameThreadShaderMap 0x00000000D860AB00
+[2017.04.10-11.02.17:645][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MUREN, compiling. 
+[2017.04.10-11.02.17:665][601]LogTemp:Display: Added material ShaderMap 0x00000000D860A080 with Material 0x00000000E873D600 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:667][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MUREN, GameThreadShaderMap 0x00000000D860A080
+[2017.04.10-11.02.17:685][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy House_wall_001_MAT, compiling. 
+[2017.04.10-11.02.17:686][601]LogTemp:Display: Added material ShaderMap 0x00000000D860A400 with Material 0x00000000EDABD600 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:689][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy House_wall_001_MAT, GameThreadShaderMap 0x00000000D860A400
+[2017.04.10-11.02.17:741][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _doos_01default, compiling. 
+[2017.04.10-11.02.17:742][601]LogTemp:Display: Added material ShaderMap 0x00000000C3FE4800 with Material 0x00000000EDABE800 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:744][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy _doos_01default, GameThreadShaderMap 0x00000000C3FE4800
+[2017.04.10-11.02.17:802][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _prop_03default, compiling. 
+[2017.04.10-11.02.17:803][601]LogTemp:Display: Added material ShaderMap 0x00000000C3FE4480 with Material 0x00000000EDABDC00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:806][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy _prop_03default, GameThreadShaderMap 0x00000000C3FE4480
+[2017.04.10-11.02.17:809][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy trashbag, compiling. 
+[2017.04.10-11.02.17:810][601]LogTemp:Display: Added material ShaderMap 0x00000000C3FE4F00 with Material 0x00000000EDABC400 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:812][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy trashbag, GameThreadShaderMap 0x00000000C3FE4F00
+[2017.04.10-11.02.17:826][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy houten_muur, compiling. 
+[2017.04.10-11.02.17:826][601]LogTemp:Display: Added material ShaderMap 0x00000000D1A19D00 with Material 0x00000000EDABEB00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:829][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy houten_muur, GameThreadShaderMap 0x00000000D1A19D00
+[2017.04.10-11.02.17:854][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _bank_low_01defaultMat, compiling. 
+[2017.04.10-11.02.17:854][601]LogTemp:Display: Added material ShaderMap 0x00000000D1A1A080 with Material 0x00000000EDABC100 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:856][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy _bank_low_01defaultMat, GameThreadShaderMap 0x00000000D1A1A080
+[2017.04.10-11.02.17:877][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GenericTrash_MIC, compiling. 
+[2017.04.10-11.02.17:878][601]LogTemp:Display: Added material ShaderMap 0x00000000D1A18800 with Material 0x00000000EDABCD00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:880][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy GenericTrash_MIC, GameThreadShaderMap 0x00000000D1A18800
+[2017.04.10-11.02.17:896][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tech, compiling. 
+[2017.04.10-11.02.17:897][601]LogTemp:Display: Added material ShaderMap 0x00000000E8284480 with Material 0x000000002DE0DC00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:900][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Tech, GameThreadShaderMap 0x00000000E8284480
+[2017.04.10-11.02.17:925][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy face_mask, compiling. 
+[2017.04.10-11.02.17:925][601]LogTemp:Display: Added material ShaderMap 0x00000000E8284800 with Material 0x000000002DE0EB00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:927][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy face_mask, GameThreadShaderMap 0x00000000E8284800
+[2017.04.10-11.02.17:970][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy hazmat_suit, compiling. 
+[2017.04.10-11.02.17:971][601]LogTemp:Display: Added material ShaderMap 0x00000000C55B4800 with Material 0x000000002DE0F100 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.17:973][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy hazmat_suit, GameThreadShaderMap 0x00000000C55B4800
+[2017.04.10-11.02.17:999][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mask, compiling. 
+[2017.04.10-11.02.17:999][601]LogTemp:Display: Added material ShaderMap 0x00000000C55B7200 with Material 0x0000000067094D00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.18:002][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy mask, GameThreadShaderMap 0x00000000C55B7200
+[2017.04.10-11.02.18:014][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy face, compiling. 
+[2017.04.10-11.02.18:015][601]LogTemp:Display: Added material ShaderMap 0x00000000CD11BC80 with Material 0x0000000067096500 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.18:017][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy face, GameThreadShaderMap 0x00000000CD11BC80
+[2017.04.10-11.02.18:038][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2017.04.10-11.02.18:039][601]LogTemp:Display: Added material ShaderMap 0x00000000CD11A400 with Material 0x0000000067096800 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.18:041][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy lambert1, GameThreadShaderMap 0x00000000CD11A400
+[2017.04.10-11.02.18:058][601]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy maag, compiling. 
+[2017.04.10-11.02.18:058][601]LogTemp:Display: Added material ShaderMap 0x00000000CD119D00 with Material 0x0000000067097D00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.18:060][601]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy maag, GameThreadShaderMap 0x00000000CD119D00
+[2017.04.10-11.02.20:095][601]LogTemp:Display: Finished compile of shader map 0x00000000D4A56B00
+[2017.04.10-11.02.20:095][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x00000000D4A56B00, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.04.10-11.02.20:095][601]LogTemp:Display: Marking material as finished 0x000000006A5AD300
+[2017.04.10-11.02.20:097][601]LogTemp:Display: Finished compile of shader map 0x00000000D860B200
+[2017.04.10-11.02.20:097][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Wood_048_Old_MAT complete, GameThreadShaderMap 0x00000000D860B200, marking material FDebugViewModeMaterialProxy Wood_048_Old_MAT as finished
+[2017.04.10-11.02.20:097][601]LogTemp:Display: Marking material as finished 0x000000006A5AEE00
+[2017.04.10-11.02.20:099][601]LogTemp:Display: Finished compile of shader map 0x00000000D860AB00
+[2017.04.10-11.02.20:099][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x00000000D860AB00, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 as finished
+[2017.04.10-11.02.20:099][601]LogTemp:Display: Marking material as finished 0x00000000E873EE00
+[2017.04.10-11.02.20:189][601]LogTemp:Display: Finished compile of shader map 0x00000000D860A080
+[2017.04.10-11.02.20:189][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MUREN complete, GameThreadShaderMap 0x00000000D860A080, marking material FDebugViewModeMaterialProxy MUREN as finished
+[2017.04.10-11.02.20:189][601]LogTemp:Display: Marking material as finished 0x00000000E873D600
+[2017.04.10-11.02.20:283][601]LogTemp:Display: Finished compile of shader map 0x00000000C3FE4800
+[2017.04.10-11.02.20:283][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy _doos_01default complete, GameThreadShaderMap 0x00000000C3FE4800, marking material FDebugViewModeMaterialProxy _doos_01default as finished
+[2017.04.10-11.02.20:283][601]LogTemp:Display: Marking material as finished 0x00000000EDABE800
+[2017.04.10-11.02.20:299][601]LogTemp:Display: Finished compile of shader map 0x00000000D860A400
+[2017.04.10-11.02.20:299][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy House_wall_001_MAT complete, GameThreadShaderMap 0x00000000D860A400, marking material FDebugViewModeMaterialProxy House_wall_001_MAT as finished
+[2017.04.10-11.02.20:299][601]LogTemp:Display: Marking material as finished 0x00000000EDABD600
+[2017.04.10-11.02.20:361][601]LogTemp:Display: Finished compile of shader map 0x00000000C3FE4480
+[2017.04.10-11.02.20:361][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy _prop_03default complete, GameThreadShaderMap 0x00000000C3FE4480, marking material FDebugViewModeMaterialProxy _prop_03default as finished
+[2017.04.10-11.02.20:361][601]LogTemp:Display: Marking material as finished 0x00000000EDABDC00
+[2017.04.10-11.02.20:385][601]LogTemp:Display: Finished compile of shader map 0x00000000C3FE4F00
+[2017.04.10-11.02.20:385][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy trashbag complete, GameThreadShaderMap 0x00000000C3FE4F00, marking material FDebugViewModeMaterialProxy trashbag as finished
+[2017.04.10-11.02.20:385][601]LogTemp:Display: Marking material as finished 0x00000000EDABC400
+[2017.04.10-11.02.20:470][601]LogTemp:Display: Finished compile of shader map 0x00000000D1A19D00
+[2017.04.10-11.02.20:470][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy houten_muur complete, GameThreadShaderMap 0x00000000D1A19D00, marking material FDebugViewModeMaterialProxy houten_muur as finished
+[2017.04.10-11.02.20:470][601]LogTemp:Display: Marking material as finished 0x00000000EDABEB00
+[2017.04.10-11.02.20:493][601]LogTemp:Display: Finished compile of shader map 0x00000000D1A1A080
+[2017.04.10-11.02.20:493][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy _bank_low_01defaultMat complete, GameThreadShaderMap 0x00000000D1A1A080, marking material FDebugViewModeMaterialProxy _bank_low_01defaultMat as finished
+[2017.04.10-11.02.20:493][601]LogTemp:Display: Marking material as finished 0x00000000EDABC100
+[2017.04.10-11.02.20:575][601]LogTemp:Display: Finished compile of shader map 0x00000000D1A18800
+[2017.04.10-11.02.20:575][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy GenericTrash_MIC complete, GameThreadShaderMap 0x00000000D1A18800, marking material FDebugViewModeMaterialProxy GenericTrash_MIC as finished
+[2017.04.10-11.02.20:575][601]LogTemp:Display: Marking material as finished 0x00000000EDABCD00
+[2017.04.10-11.02.20:669][601]LogTemp:Display: Finished compile of shader map 0x00000000C55B4800
+[2017.04.10-11.02.20:669][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy hazmat_suit complete, GameThreadShaderMap 0x00000000C55B4800, marking material FDebugViewModeMaterialProxy hazmat_suit as finished
+[2017.04.10-11.02.20:669][601]LogTemp:Display: Marking material as finished 0x000000002DE0F100
+[2017.04.10-11.02.20:672][601]LogTemp:Display: Finished compile of shader map 0x00000000E8284800
+[2017.04.10-11.02.20:672][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy face_mask complete, GameThreadShaderMap 0x00000000E8284800, marking material FDebugViewModeMaterialProxy face_mask as finished
+[2017.04.10-11.02.20:672][601]LogTemp:Display: Marking material as finished 0x000000002DE0EB00
+[2017.04.10-11.02.20:684][601]LogTemp:Display: Finished compile of shader map 0x00000000E8284480
+[2017.04.10-11.02.20:684][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Tech complete, GameThreadShaderMap 0x00000000E8284480, marking material FDebugViewModeMaterialProxy Tech as finished
+[2017.04.10-11.02.20:684][601]LogTemp:Display: Marking material as finished 0x000000002DE0DC00
+[2017.04.10-11.02.20:861][601]LogTemp:Display: Finished compile of shader map 0x00000000CD11BC80
+[2017.04.10-11.02.20:861][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy face complete, GameThreadShaderMap 0x00000000CD11BC80, marking material FDebugViewModeMaterialProxy face as finished
+[2017.04.10-11.02.20:861][601]LogTemp:Display: Marking material as finished 0x0000000067096500
+[2017.04.10-11.02.20:893][601]LogTemp:Display: Finished compile of shader map 0x00000000CD119D00
+[2017.04.10-11.02.20:893][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy maag complete, GameThreadShaderMap 0x00000000CD119D00, marking material FDebugViewModeMaterialProxy maag as finished
+[2017.04.10-11.02.20:893][601]LogTemp:Display: Marking material as finished 0x0000000067097D00
+[2017.04.10-11.02.20:896][601]LogTemp:Display: Finished compile of shader map 0x00000000CD11A400
+[2017.04.10-11.02.20:896][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy lambert1 complete, GameThreadShaderMap 0x00000000CD11A400, marking material FDebugViewModeMaterialProxy lambert1 as finished
+[2017.04.10-11.02.20:896][601]LogTemp:Display: Marking material as finished 0x0000000067096800
+[2017.04.10-11.02.20:918][601]LogTemp:Display: Finished compile of shader map 0x00000000C55B7200
+[2017.04.10-11.02.20:918][601]LogTemp:Display: Shader map FDebugViewModeMaterialProxy mask complete, GameThreadShaderMap 0x00000000C55B7200, marking material FDebugViewModeMaterialProxy mask as finished
+[2017.04.10-11.02.20:918][601]LogTemp:Display: Marking material as finished 0x0000000067094D00
+[2017.04.10-11.02.20:920][601]TextureStreamingBuild:Display: Compiling optional shaders took 3.351 seconds.
+[2017.04.10-11.02.21:157][601]LogLevel:Display: Export Material TexCoord Scales took 0.237 seconds.
+[2017.04.10-11.02.21:201][601]TextureStreamingBuild:Display: Build Texture Streaming took 0.032 seconds.
+[2017.04.10-11.02.21:237][601]LightingResults: New page: Lighting Build - Apr 10, 2017, 3:02:21 PM
+[2017.04.10-11.02.21:840][601]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.10-11.02.22:022][601]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.10-11.02.22:678][601]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.10-11.02.27:885][601]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.04.10-11.02.28:338][601]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.04.10-11.02.33:731][601]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.10-11.02.33:731][601]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16788
+[2017.04.10-11.02.39:437][601]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.10-11.02.39:448][601]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.10-11.02.39:448][601]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.10-11.02.39:448][601]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.10-11.02.39:448][601]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.10-11.02.39:448][601]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.10-11.02.40:179][601]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.04.10-11.02.40:179][601]MapCheck: New page: kamer_06 - Apr 10, 2017, 3:02:40 PM
+[2017.04.10-11.02.40:206][601]MapCheck:Warning: Warning tech_02_buis_01_139 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.02.40:206][601]MapCheck:Warning: Warning tech_02_buis_01_139 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.02.40:206][601]MapCheck:Warning: Warning tech_02_buis_145 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.02.40:206][601]MapCheck:Warning: Warning tech_02_buis_145 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.02.40:215][601]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.04.10-11.02.41:493][601]MapCheck: Info Map check complete: 1 Error(s), 4 Warning(s), took 1,312.825ms to complete.
+[2017.04.10-11.02.41:514][601]LogEditorBuildUtils: Build time 0:24
+[2017.04.10-11.02.42:021][604]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tech, compiling. 
+[2017.04.10-11.02.42:040][604]LogTemp:Display: Added material ShaderMap 0x00000000EDAF7200 with Material 0x0000000021B4AE00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.42:042][604]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Tech, GameThreadShaderMap 0x00000000EDAF7200
+[2017.04.10-11.02.42:076][604]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tech, compiling. 
+[2017.04.10-11.02.42:076][604]LogTemp:Display: Added material ShaderMap 0x0000000072C5CB80 with Material 0x0000000021B4A500 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.42:079][604]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Tech, GameThreadShaderMap 0x0000000072C5CB80
+[2017.04.10-11.02.42:147][604]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tech, compiling. 
+[2017.04.10-11.02.42:148][604]LogTemp:Display: Added material ShaderMap 0x0000000073CF4B80 with Material 0x0000000021B49F00 to ShaderMapsBeingCompiled
+[2017.04.10-11.02.42:150][604]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Tech, GameThreadShaderMap 0x0000000073CF4B80
+[2017.04.10-11.02.42:779][605]LogTemp:Display: Finished compile of shader map 0x0000000072C5CB80
+[2017.04.10-11.02.42:779][605]LogTemp:Display: Shader map FLightmassMaterialRenderer Tech complete, GameThreadShaderMap 0x0000000072C5CB80, marking material FLightmassMaterialRenderer Tech as finished
+[2017.04.10-11.02.42:779][605]LogTemp:Display: Marking material as finished 0x0000000021B4A500
+[2017.04.10-11.02.42:783][605]LogTemp:Display: Finished compile of shader map 0x00000000EDAF7200
+[2017.04.10-11.02.42:783][605]LogTemp:Display: Shader map FLightmassMaterialRenderer Tech complete, GameThreadShaderMap 0x00000000EDAF7200, marking material FLightmassMaterialRenderer Tech as finished
+[2017.04.10-11.02.42:783][605]LogTemp:Display: Marking material as finished 0x0000000021B4AE00
+[2017.04.10-11.02.42:786][605]LogTemp:Display: Finished compile of shader map 0x0000000073CF4B80
+[2017.04.10-11.02.42:786][605]LogTemp:Display: Shader map FLightmassMaterialRenderer Tech complete, GameThreadShaderMap 0x0000000073CF4B80, marking material FLightmassMaterialRenderer Tech as finished
+[2017.04.10-11.02.42:786][605]LogTemp:Display: Marking material as finished 0x0000000021B49F00
+[2017.04.10-11.06.06:990][322]LightingResults:Warning: Warning houten_muur Object has overlapping UVs.
+[2017.04.10-11.06.06:990][322]LightingResults: Info houten_muur Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.10-11.07.37:029][592]Job is a success!
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: AOMaterialMask1_1 (BC4, 1024X512) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: AOMaterialMask1_2 (BC4, 1024X512) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: AOMaterialMask1_3 (BC4, 128X64) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128) - 913 MB total VRAM
+[2017.04.10-11.07.39:579][593]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128) - 913 MB total VRAM
+[2017.04.10-11.07.39:894][593]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024) - 913 MB total VRAM
+[2017.04.10-11.07.48:834][593]Lightmass on IB50: 4:54 min total, 666 ms importing, 120 ms setup, 4.84 sec photons, 4:49 min processing, 0 ms extra exporting [270/270 mappings]. Threads: 33:44 min total, 28:26 min processing.
+[2017.04.10-11.07.48:880][593]LogStaticLightingSystem: Illumination: 5:27 min (1.10 sec encoding lightmaps, 314 ms encoding shadowmaps)
+[2017.04.10-11.07.48:880][593]LogStaticLightingSystem: Lightmap texture memory:  4.7 MB (4.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.04.10-11.07.48:880][593]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.04.10-11.07.49:444][593]DumpUnbuiltLightIteractions
+[2017.04.10-11.07.49:444][593]Lights with unbuilt interactions: 0
+[2017.04.10-11.07.49:444][593]
+[2017.04.10-11.07.49:444][593]Primitives with unbuilt interactions: 0
+[2017.04.10-11.07.49:469][594]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.10-11.07.49:470][594]MapCheck: New page: kamer_06 - Apr 10, 2017, 3:07:49 PM
+[2017.04.10-11.07.49:473][594]MapCheck:Warning: Warning tech_02_buis_01_139 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.07.49:473][594]MapCheck:Warning: Warning tech_02_buis_01_139 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.07.49:473][594]MapCheck:Warning: Warning tech_02_buis_145 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.07.49:473][594]MapCheck:Warning: Warning tech_02_buis_145 Static mesh actor has NULL StaticMesh property 
+[2017.04.10-11.07.49:541][594]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 71.399ms to complete.
+[2017.04.10-11.09.45:094][939]LogSavePackage: Save=401.69ms
+[2017.04.10-11.09.45:094][939]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_Auto3EF5E736B4C57188D3127778F3012A908.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto3.umap'
+[2017.04.10-11.09.45:096][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_Auto3.umap
+[2017.04.10-11.09.45:099][939]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/kamer_06' took 0.466
+[2017.04.10-11.09.45:099][939]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.466
+[2017.04.10-11.09.45:102][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/kamer_06_BuiltData] ([1] browsable assets)...
+[2017.04.10-11.09.45:102][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/kamer_06_BuiltData]
+[2017.04.10-11.09.45:360][939]LogSavePackage: Save=21.19ms
+[2017.04.10-11.09.45:360][939]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_BuiltData_Auto3DB80EF944F9A7020976FF789C88D1D1E.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_BuiltData_Auto3.uasset'
+[2017.04.10-11.09.45:361][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/Maps/kamer_06_BuiltData_Auto3.uasset
+[2017.04.10-11.09.45:362][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_BaseColor] ([1] browsable assets)...
+[2017.04.10-11.09.45:375][939]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_BaseColor.tech_01_Tech_BaseColor]
+[2017.04.10-11.09.45:375][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_BaseColor]
+[2017.04.10-11.09.45:396][939]LogSavePackage: Save=14.03ms
+[2017.04.10-11.09.45:396][939]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_BaseColor_Auto32A5447184D2AF0095CDBE9B187C15FA8.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_BaseColor_Auto3.uasset'
+[2017.04.10-11.09.45:397][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_BaseColor_Auto3.uasset
+[2017.04.10-11.09.45:398][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_Emissive] ([1] browsable assets)...
+[2017.04.10-11.09.45:407][939]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_Emissive.tech_01_Tech_Emissive]
+[2017.04.10-11.09.45:407][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_Emissive]
+[2017.04.10-11.09.45:429][939]LogSavePackage: Save=13.15ms
+[2017.04.10-11.09.45:429][939]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Emissive_Auto3A8103E4B4283B57923824D883C5B5E35.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Emissive_Auto3.uasset'
+[2017.04.10-11.09.45:430][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Emissive_Auto3.uasset
+[2017.04.10-11.09.45:431][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_Normal] ([1] browsable assets)...
+[2017.04.10-11.09.45:439][939]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_Normal.tech_01_Tech_Normal]
+[2017.04.10-11.09.45:440][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_Normal]
+[2017.04.10-11.09.45:460][939]LogSavePackage: Save=13.83ms
+[2017.04.10-11.09.45:460][939]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Normal_Auto303CF77CB4ADD8D961020B693C0C42DC8.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Normal_Auto3.uasset'
+[2017.04.10-11.09.45:461][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Normal_Auto3.uasset
+[2017.04.10-11.09.45:461][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2017.04.10-11.09.45:470][939]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic.tech_01_Tech_OcclusionRoughnessMetallic]
+[2017.04.10-11.09.45:470][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic]
+[2017.04.10-11.09.45:526][939]LogSavePackage: Save=18.81ms
+[2017.04.10-11.09.45:526][939]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_OcclusionRoughnessMetallic_Auto343C0AEA44957BC3F7609D794D26F8909.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic_Auto3.uasset'
+[2017.04.10-11.09.45:532][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_OcclusionRoughnessMetallic_Auto3.uasset
+[2017.04.10-11.09.45:532][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/props/tech/tech_01_Tech_Opacity] ([1] browsable assets)...
+[2017.04.10-11.09.45:542][939]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/props/tech/tech_01_Tech_Opacity.tech_01_Tech_Opacity]
+[2017.04.10-11.09.45:542][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/props/tech/tech_01_Tech_Opacity]
+[2017.04.10-11.09.45:558][939]LogSavePackage: Save=8.03ms
+[2017.04.10-11.09.45:558][939]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Opacity_Auto3FD1536AB4BA3C066B52793B5F2FC575C.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Opacity_Auto3.uasset'
+[2017.04.10-11.09.45:559][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Autosaves/Game/props/tech/tech_01_Tech_Opacity_Auto3.uasset
+[2017.04.10-11.09.45:559][939]LogFileHelpers: Auto-saving content packages took 0.458
+[2017.04.10-11.11.47:700][370]LogSavePackage: Save=369.13ms
+[2017.04.10-11.11.47:700][370]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_065368B4724D184070AD7248BD838CA7E4.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap'
+[2017.04.10-11.11.47:703][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap
+[2017.04.10-11.11.48:058][370]LogSavePackage: Save=328.64ms
+[2017.04.10-11.11.48:058][370]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_BuiltData0C554D8F41DC04F51FED6EBF06FF2976.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset'
+[2017.04.10-11.11.48:062][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset
+[2017.04.10-11.12.10:065][894]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.12.10:076][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.12.10:076][894]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:12:10 PM)
+[2017.04.10-11.12.10:076][894]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.12.10:139][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062808s)
+[2017.04.10-11.12.10:140][894]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.12.10:140][894]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2017.04.10-11.12.10:140][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.063796s)
+[2017.04.10-11.12.10:151][894]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.12.10:157][894]LogInit: FAudioDevice initialized.
+[2017.04.10-11.12.10:187][894]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.12.10:196][894]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.12.10
+[2017.04.10-11.12.10:196][894]LogWorld: Bringing up level for play took: 0.007369
+[2017.04.10-11.12.10:197][894]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.528
+[2017.04.10-11.12.44:081][628]LogSlate: Took 0.012129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.04.10-11.13.11:168][ 33]Cmd: SP.OutputDir C:\Users\Student\Google Drive\School\afstuderen
+[2017.04.10-11.13.11:168][ 33]SP.OutputDir = "C:\Users\Student\Google Drive\School\afstuderen"
+[2017.04.10-11.13.27:443][777]Cmd: SP.PanoramicScreenshot
+[2017.04.10-11.13.27:453][777]LogStereoPanorama:Warning: The number of horizontal steps (360) needs to be a factor of the atlas width (4096)
+[2017.04.10-11.13.27:453][777]LogStereoPanorama:Warning: The number of vertical steps (3) needs to be a factor of the atlas height (2048)
+[2017.04.10-11.13.27:453][777]LogStereoPanorama:Display: Stereo panoramic screenshot parameters
+[2017.04.10-11.13.27:453][777]LogStereoPanorama:Display:  ... capture size: 2048 x 2048
+[2017.04.10-11.13.27:453][777]LogStereoPanorama:Display:  ... spherical atlas size: 4096 x 2048
+[2017.04.10-11.13.27:454][777]LogStereoPanorama:Display:  ... intermediate atlas size: 6480 x 6144
+[2017.04.10-11.13.27:454][777]LogStereoPanorama:Display:  ... strip size: 18 x 2048
+[2017.04.10-11.13.27:454][777]LogStereoPanorama:Display:  ... horizontal steps: 360 at 1 degrees
+[2017.04.10-11.13.27:454][777]LogStereoPanorama:Display:  ... vertical steps: 3 at 90 degrees
+[2017.04.10-11.13.27:573][778]LogRenderer: Reallocating scene render targets to support 2048x2048 NumSamples 1 (Frame:29782).
+[2017.04.10-11.13.32:206][779]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.10-11.13.32:706][779]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.10-11.13.33:206][779]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.10-11.17.01:285][852]LogStereoPanorama: Sampling atlas...
+[2017.04.10-11.17.09:776][852]LogStereoPanorama: ...done! Duration: 8.491 seconds
+[2017.04.10-11.17.09:776][852]LogStereoPanorama: Writing atlas: C:\Users\Student\Google Drive\School\afstuderen/2017.04.10-13.13.27/Left_00000.png
+[2017.04.10-11.17.10:811][852]LogStereoPanorama:  ... done!
+[2017.04.10-11.17.10:823][852]LogStereoPanorama: Sampling atlas...
+[2017.04.10-11.17.19:461][852]LogStereoPanorama: ...done! Duration: 8.638 seconds
+[2017.04.10-11.17.19:461][852]LogStereoPanorama: Writing atlas: C:\Users\Student\Google Drive\School\afstuderen/2017.04.10-13.13.27/Right_00000.png
+[2017.04.10-11.17.20:493][852]LogStereoPanorama:  ... done!
+[2017.04.10-11.17.20:493][852]LogStereoPanorama: Duration: 232.938 seconds for frame 0
+[2017.04.10-11.17.20:493][852]LogStereoPanorama: Duration: 3.8823 minutes for frame range [0,0] 
+[2017.04.10-11.18.00:227][ 85]LogSavePackage: Save=374.29ms
+[2017.04.10-11.18.00:227][ 85]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_061282D8EE4EB77C8AFA2D369F1ED2A564.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap'
+[2017.04.10-11.18.00:230][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap
+[2017.04.10-11.18.00:596][ 85]LogSavePackage: Save=331.07ms
+[2017.04.10-11.18.00:596][ 85]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_BuiltDataCFEE66804AF2F645A3C02EB93377A9F3.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset'
+[2017.04.10-11.18.00:599][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset
+[2017.04.10-11.19.00:068][ 10]LogSavePackage: Save=379.45ms
+[2017.04.10-11.19.00:069][ 10]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_065AA217304D4548F410661CBC99B936D0.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap'
+[2017.04.10-11.19.00:071][ 10]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap
+[2017.04.10-11.19.00:436][ 10]LogSavePackage: Save=339.65ms
+[2017.04.10-11.19.00:436][ 10]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_BuiltData4EAFB4F84A6FD0C6BBE6EFB0BBB1DA94.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset'
+[2017.04.10-11.19.00:439][ 10]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset
+[2017.04.10-11.19.49:154][688]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.19.49:171][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.19.49:172][688]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:19:49 PM)
+[2017.04.10-11.19.49:172][688]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.19.49:193][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021050s)
+[2017.04.10-11.19.49:193][688]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.19.49:193][688]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2017.04.10-11.19.49:194][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.022062s)
+[2017.04.10-11.19.49:205][688]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.19.49:211][688]LogInit: FAudioDevice initialized.
+[2017.04.10-11.19.49:241][688]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.19.49:250][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.19.49
+[2017.04.10-11.19.49:250][688]LogWorld: Bringing up level for play took: 0.007841
+[2017.04.10-11.19.49:252][688]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.423
+[2017.04.10-11.20.01:828][137]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00000.png
+[2017.04.10-11.21.40:148][922]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.04.10-11.21.41:284][958]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.21.41:295][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.21.41:295][958]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:21:41 PM)
+[2017.04.10-11.21.41:295][958]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.21.41:311][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016116s)
+[2017.04.10-11.21.41:312][958]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.21.41:312][958]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2017.04.10-11.21.41:312][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.017041s)
+[2017.04.10-11.21.41:369][958]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.21.41:374][958]LogInit: FAudioDevice initialized.
+[2017.04.10-11.21.41:405][958]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.21.41:424][958]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.21.41
+[2017.04.10-11.21.41:425][958]LogWorld: Bringing up level for play took: 0.017565
+[2017.04.10-11.21.41:428][958]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.249
+[2017.04.10-11.21.46:367][123]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.04.10-11.22.18:581][546]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.22.18:591][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.22.18:591][546]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:22:18 PM)
+[2017.04.10-11.22.18:592][546]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.22.18:607][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015156s)
+[2017.04.10-11.22.18:607][546]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.22.18:607][546]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2017.04.10-11.22.18:607][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.015847s)
+[2017.04.10-11.22.18:619][546]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.22.18:626][546]LogInit: FAudioDevice initialized.
+[2017.04.10-11.22.18:652][546]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.22.18:660][546]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.22.18
+[2017.04.10-11.22.18:661][546]LogWorld: Bringing up level for play took: 0.007267
+[2017.04.10-11.22.18:662][546]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.985
+[2017.04.10-11.22.53:808][668]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.22.53:818][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.22.53:818][668]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:22:53 PM)
+[2017.04.10-11.22.53:818][668]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.22.53:833][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014828s)
+[2017.04.10-11.22.53:834][668]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.22.53:834][668]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.04.10-11.22.53:834][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.015580s)
+[2017.04.10-11.22.53:845][668]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.22.53:851][668]LogInit: FAudioDevice initialized.
+[2017.04.10-11.22.53:885][668]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.22.53:909][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.22.53
+[2017.04.10-11.22.53:910][668]LogWorld: Bringing up level for play took: 0.021547
+[2017.04.10-11.22.53:911][668]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.233
+[2017.04.10-11.23.23:931][744]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.04.10-11.23.26:037][956]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2017.04.10-11.23.34:076][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.23.34:077][884]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:23:34 PM)
+[2017.04.10-11.23.34:077][884]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.23.34:092][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015655s)
+[2017.04.10-11.23.34:093][884]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.23.34:093][884]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.04.10-11.23.34:093][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.016539s)
+[2017.04.10-11.23.34:131][884]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.23.34:137][884]LogInit: FAudioDevice initialized.
+[2017.04.10-11.23.34:180][884]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.23.34:197][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.23.34
+[2017.04.10-11.23.34:198][884]LogWorld: Bringing up level for play took: 0.016242
+[2017.04.10-11.23.34:200][884]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.522
+[2017.04.10-11.23.47:585][835]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.23.47:595][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.23.47:595][835]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:23:47 PM)
+[2017.04.10-11.23.47:595][835]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.23.47:611][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015648s)
+[2017.04.10-11.23.47:612][835]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.23.47:612][835]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.04.10-11.23.47:612][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.016388s)
+[2017.04.10-11.23.47:647][835]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.23.47:653][835]LogInit: FAudioDevice initialized.
+[2017.04.10-11.23.47:684][835]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.23.47:699][835]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.23.47
+[2017.04.10-11.23.47:700][835]LogWorld: Bringing up level for play took: 0.013418
+[2017.04.10-11.23.47:701][835]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.023
+[2017.04.10-11.24.25:605][817]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:41020).
+[2017.04.10-11.24.26:161][817]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00001.png
+[2017.04.10-11.24.42:908][125]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:41447).
+[2017.04.10-11.24.43:430][125]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00002.png
+[2017.04.10-11.24.58:536][932]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:42094).
+[2017.04.10-11.24.59:077][932]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00003.png
+[2017.04.10-11.25.21:134][210]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:42972).
+[2017.04.10-11.25.21:667][210]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00004.png
+[2017.04.10-11.25.29:381][678]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:43256).
+[2017.04.10-11.25.29:942][678]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00005.png
+[2017.04.10-11.26.03:256][335]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:44709).
+[2017.04.10-11.26.03:800][335]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00006.png
+[2017.04.10-11.26.26:940][642]LogSavePackage: Save=373.62ms
+[2017.04.10-11.26.26:940][642]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_060E261D14490455315ECCDD943372BE30.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap'
+[2017.04.10-11.26.26:945][642]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap
+[2017.04.10-11.26.27:310][642]LogSavePackage: Save=329.75ms
+[2017.04.10-11.26.27:310][642]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_BuiltData924A95FB411C2B07E5672BBFDBD330CE.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset'
+[2017.04.10-11.26.27:313][642]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset
+[2017.04.10-11.26.35:997][191]Cmd: HighResShot 1920x1080
+[2017.04.10-11.26.36:007][191]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:45837).
+[2017.04.10-11.26.36:613][191]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00007.png
+[2017.04.10-11.27.24:903][670]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.04.10-11.27.25:387][723]Cmd: DELETE
+[2017.04.10-11.27.25:387][723]Cmd: ACTOR DELETE
+[2017.04.10-11.27.25:387][723]LogEditorActor: Deleted Actor: CameraActor
+[2017.04.10-11.27.25:423][723]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.04.10-11.27.28:519][ 93]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.04.10-11.28.41:400][671]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.28.41:410][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.28.41:410][671]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:28:41 PM)
+[2017.04.10-11.28.41:410][671]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.28.41:427][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016885s)
+[2017.04.10-11.28.41:428][671]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.28.41:428][671]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2017.04.10-11.28.41:428][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.017857s)
+[2017.04.10-11.28.41:443][671]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.28.41:449][671]LogInit: FAudioDevice initialized.
+[2017.04.10-11.28.41:477][671]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.28.41:485][671]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.28.41
+[2017.04.10-11.28.41:486][671]LogWorld: Bringing up level for play took: 0.008117
+[2017.04.10-11.28.41:487][671]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.195
+[2017.04.10-11.28.48:933][231]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:46797).
+[2017.04.10-11.28.49:490][231]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00008.png
+[2017.04.10-11.29.00:658][868]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:47205).
+[2017.04.10-11.29.01:167][868]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00009.png
+[2017.04.10-11.29.06:736][110]Set new viewmode: Wireframe
+[2017.04.10-11.29.07:584][205]Set new viewmode: Wireframe
+[2017.04.10-11.29.07:942][248]Set new viewmode: Unlit
+[2017.04.10-11.29.08:784][349]Set new viewmode: Lit
+[2017.04.10-11.29.09:394][377]Set new viewmode: Lit_DetailLighting
+[2017.04.10-11.29.10:078][406]Set new viewmode: Lit
+[2017.04.10-11.29.23:542][117]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:48251).
+[2017.04.10-11.29.24:113][117]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00010.png
+[2017.04.10-11.29.31:172][425]Set new viewmode: Wireframe
+[2017.04.10-11.29.32:285][541]Set new viewmode: Lit
+[2017.04.10-11.29.34:952][721]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:48757).
+[2017.04.10-11.29.35:464][721]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00011.png
+[2017.04.10-11.29.41:970][ 53]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.29.41:981][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.29.41:981][ 53]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:29:41 PM)
+[2017.04.10-11.29.41:981][ 53]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.29.41:997][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015778s)
+[2017.04.10-11.29.41:997][ 53]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.29.41:997][ 53]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2017.04.10-11.29.41:997][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.016541s)
+[2017.04.10-11.29.42:010][ 53]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.29.42:015][ 53]LogInit: FAudioDevice initialized.
+[2017.04.10-11.29.42:042][ 53]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.29.42:050][ 53]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.29.42
+[2017.04.10-11.29.42:050][ 53]LogWorld: Bringing up level for play took: 0.007497
+[2017.04.10-11.29.42:051][ 53]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 0.369
+[2017.04.10-11.29.49:955][579]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:49259).
+[2017.04.10-11.29.50:481][579]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00012.png
+[2017.04.10-11.30.21:036][246]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.10-11.30.21:046][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.10-11.30.21:046][246]PIE: New page: PIE session: kamer_06 (Apr 10, 2017, 3:30:21 PM)
+[2017.04.10-11.30.21:046][246]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_kamer_06
+[2017.04.10-11.30.21:063][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016194s)
+[2017.04.10-11.30.21:063][246]LogAIModule: Creating AISystem for world kamer_06
+[2017.04.10-11.30.21:063][246]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.04.10-11.30.21:063][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/kamer_06.kamer_06 to /Game/Maps/UEDPIE_0_kamer_06.kamer_06 (0.017006s)
+[2017.04.10-11.30.21:076][246]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.10-11.30.21:082][246]LogInit: FAudioDevice initialized.
+[2017.04.10-11.30.21:110][246]LogLoad: Game class is 'GameModeBase'
+[2017.04.10-11.30.21:118][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_kamer_06.kamer_06 up for play (max tick rate 0) at 2017.04.10-13.30.21
+[2017.04.10-11.30.21:118][246]LogWorld: Bringing up level for play took: 0.007873
+[2017.04.10-11.30.21:119][246]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_kamer_06 -0.564
+[2017.04.10-11.31.18:827][203]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:52611).
+[2017.04.10-11.31.19:313][203]LogClient: High resolution screenshot saved as C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Screenshots/Windows/HighresScreenshot00013.png
+[2017.04.10-11.31.24:072][469]LogSavePackage: Save=382.56ms
+[2017.04.10-11.31.24:072][469]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_060061CC0A4C4561818F74298D6551F893.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap'
+[2017.04.10-11.31.24:077][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06.umap
+[2017.04.10-11.31.24:457][469]LogSavePackage: Save=352.21ms
+[2017.04.10-11.31.24:457][469]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/kamer_06_BuiltData6101AC8541F309514C7DE1A13C812D5B.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset'
+[2017.04.10-11.31.24:460][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Maps/kamer_06_BuiltData.uasset
+[2017.04.10-11.31.27:196][522]LogSavePackage: Save=403.75ms
+[2017.04.10-11.31.27:196][522]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_BaseColorFA15879F47255C98EDF797B6504FBFD2.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_BaseColor.uasset'
+[2017.04.10-11.31.27:199][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_BaseColor.uasset
+[2017.04.10-11.31.27:369][522]LogSavePackage: Save=163.30ms
+[2017.04.10-11.31.27:370][522]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Emissive1A57AB3B4D1F8DDC491746B719D31086.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_Emissive.uasset'
+[2017.04.10-11.31.27:372][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_Emissive.uasset
+[2017.04.10-11.31.27:693][522]LogSavePackage: Save=311.99ms
+[2017.04.10-11.31.27:693][522]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Normal30A8689541063789BCE460B0D716387F.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_Normal.uasset'
+[2017.04.10-11.31.27:696][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_Normal.uasset
+[2017.04.10-11.31.28:220][522]LogSavePackage: Save=513.00ms
+[2017.04.10-11.31.28:220][522]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_OcclusionRoughnessMetallic0CD96E9B41734D22D53659967EEE46BA.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_OcclusionRoughnessMetallic.uasset'
+[2017.04.10-11.31.28:224][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_OcclusionRoughnessMetallic.uasset
+[2017.04.10-11.31.28:271][522]LogSavePackage: Save=38.04ms
+[2017.04.10-11.31.28:271][522]LogSavePackage: Moving '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/tech_01_Tech_Opacity23F850814D09EE18BDFFDEA05D659D1F.tmp' to '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_Opacity.uasset'
+[2017.04.10-11.31.28:273][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/props/tech/tech_01_Tech_Opacity.uasset
+[2017.04.10-11.31.28:936][523]Cmd: QUIT_EDITOR
+[2017.04.10-11.31.29:318][523]LogExit: Preparing to exit.
+[2017.04.10-11.31.29:876][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/' was aborted.
+[2017.04.10-11.31.29:937][523]LogExit: Editor shut down
+[2017.04.10-11.31.29:937][523]LogExit: Transaction tracking system shut down
+[2017.04.10-11.31.30:670][523]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.10-11.31.30:670][523]LogExit: Object subsystem successfully closed.
+[2017.04.10-11.31.30:767][523]LogD3D11RHI: Shutdown
+[2017.04.10-11.31.30:767][523]LogD3D11RHI: CleanupD3DDevice
+[2017.04.10-11.31.31:138][523]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.10-11.31.31:440][523]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (512)
+[2017.04.10-11.31.31:440][523]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (510)
+[2017.04.10-11.31.31:440][523]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (508)
+[2017.04.10-11.31.31:440][523]LogModuleManager: Shutting down and abandoning module CrashTracker (506)
+[2017.04.10-11.31.31:440][523]LogModuleManager: Shutting down and abandoning module SceneOutliner (504)
+[2017.04.10-11.31.31:441][523]LogModuleManager: Shutting down and abandoning module AddContentDialog (502)
+[2017.04.10-11.31.31:441][523]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.10-11.31.31:444][523]LogModuleManager: Shutting down and abandoning module WidgetCarousel (501)
+[2017.04.10-11.31.31:444][523]LogModuleManager: Shutting down and abandoning module EditorWidgets (498)
+[2017.04.10-11.31.31:444][523]LogModuleManager: Shutting down and abandoning module CollectionManager (496)
+[2017.04.10-11.31.31:445][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Collections/' was aborted.
+[2017.04.10-11.31.31:445][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/Developers/Student/Collections/' was aborted.
+[2017.04.10-11.31.31:445][523]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Saved/Collections/' was aborted.
+[2017.04.10-11.31.31:445][523]LogModuleManager: Shutting down and abandoning module StatsViewer (494)
+[2017.04.10-11.31.31:445][523]LogModuleManager: Shutting down and abandoning module FoliageEdit (492)
+[2017.04.10-11.31.31:447][523]LogModuleManager: Shutting down and abandoning module LandscapeEditor (490)
+[2017.04.10-11.31.31:452][523]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (488)
+[2017.04.10-11.31.31:452][523]LogModuleManager: Shutting down and abandoning module ActorPickerMode (486)
+[2017.04.10-11.31.31:452][523]LogModuleManager: Shutting down and abandoning module GeometryMode (484)
+[2017.04.10-11.31.31:452][523]LogModuleManager: Shutting down and abandoning module TextureAlignMode (482)
+[2017.04.10-11.31.31:452][523]LogModuleManager: Shutting down and abandoning module BspMode (480)
+[2017.04.10-11.31.31:454][523]LogModuleManager: Shutting down and abandoning module HardwareSurvey (478)
+[2017.04.10-11.31.31:465][523]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (476)
+[2017.04.10-11.31.31:473][523]LogModuleManager: Shutting down and abandoning module AutomationWorker (474)
+[2017.04.10-11.31.31:473][523]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (472)
+[2017.04.10-11.31.31:473][523]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (470)
+[2017.04.10-11.31.31:493][523]LogModuleManager: Shutting down and abandoning module PlacementMode (469)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (466)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (464)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module MfMediaFactory (462)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module MfMediaEditor (460)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (458)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (456)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (454)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module Media (453)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (450)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module CharacterAI (448)
+[2017.04.10-11.31.31:494][523]LogModuleManager: Shutting down and abandoning module AudioCapture (446)
+[2017.04.10-11.31.31:500][523]LogModuleManager: Shutting down and abandoning module SequenceRecorder (445)
+[2017.04.10-11.31.31:522][523]LogModuleManager: Shutting down and abandoning module SmartSnapping (442)
+[2017.04.10-11.31.31:522][523]LogModuleManager: Shutting down and abandoning module SessionServices (440)
+[2017.04.10-11.31.31:522][523]LogModuleManager: Shutting down and abandoning module ViewportSnapping (438)
+[2017.04.10-11.31.31:522][523]LogModuleManager: Shutting down and abandoning module ViewportInteraction (436)
+[2017.04.10-11.31.31:522][523]LogModuleManager: Shutting down and abandoning module LogVisualizer (434)
+[2017.04.10-11.31.31:550][523]LogModuleManager: Shutting down and abandoning module IntroTutorials (432)
+[2017.04.10-11.31.31:578][523]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (431)
+[2017.04.10-11.31.31:590][523]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (428)
+[2017.04.10-11.31.31:590][523]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (426)
+[2017.04.10-11.31.31:590][523]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (424)
+[2017.04.10-11.31.31:590][523]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (422)
+[2017.04.10-11.31.31:597][523]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (421)
+[2017.04.10-11.31.32:354][523]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (418)
+[2017.04.10-11.31.32:354][523]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (416)
+[2017.04.10-11.31.32:354][523]LogModuleManager: Shutting down and abandoning module InputBindingEditor (414)
+[2017.04.10-11.31.32:354][523]LogModuleManager: Shutting down and abandoning module NiagaraEditor (412)
+[2017.04.10-11.31.32:380][523]LogModuleManager: Shutting down and abandoning module MergeActors (410)
+[2017.04.10-11.31.32:384][523]LogModuleManager: Shutting down and abandoning module SizeMap (408)
+[2017.04.10-11.31.32:391][523]LogModuleManager: Shutting down and abandoning module TreeMap (406)
+[2017.04.10-11.31.32:392][523]LogModuleManager: Shutting down and abandoning module ReferenceViewer (404)
+[2017.04.10-11.31.32:392][523]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (402)
+[2017.04.10-11.31.32:398][523]LogModuleManager: Shutting down and abandoning module LocalizationService (401)
+[2017.04.10-11.31.32:403][523]LogModuleManager: Shutting down and abandoning module HardwareTargeting (398)
+[2017.04.10-11.31.32:403][523]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (396)
+[2017.04.10-11.31.32:407][523]LogModuleManager: Shutting down and abandoning module UndoHistory (394)
+[2017.04.10-11.31.32:407][523]LogModuleManager: Shutting down and abandoning module UserFeedback (392)
+[2017.04.10-11.31.32:407][523]LogModuleManager: Shutting down and abandoning module XmlParser (390)
+[2017.04.10-11.31.32:408][523]LogModuleManager: Shutting down and abandoning module Blutility (388)
+[2017.04.10-11.31.32:414][523]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (386)
+[2017.04.10-11.31.32:414][523]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (385)
+[2017.04.10-11.31.32:414][523]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (382)
+[2017.04.10-11.31.32:415][523]LogModuleManager: Shutting down and abandoning module SettingsEditor (380)
+[2017.04.10-11.31.32:422][523]LogModuleManager: Shutting down and abandoning module ProjectLauncher (378)
+[2017.04.10-11.31.32:436][523]LogModuleManager: Shutting down and abandoning module SessionFrontend (376)
+[2017.04.10-11.31.32:437][523]LogModuleManager: Shutting down and abandoning module ProfilerClient (374)
+[2017.04.10-11.31.32:456][523]LogModuleManager: Shutting down and abandoning module DeviceManager (372)
+[2017.04.10-11.31.32:467][523]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (371)
+[2017.04.10-11.31.32:517][523]LogModuleManager: Shutting down and abandoning module AutomationController (368)
+[2017.04.10-11.31.32:517][523]LogModuleManager: Shutting down and abandoning module AutomationWindow (366)
+[2017.04.10-11.31.32:528][523]LogModuleManager: Shutting down and abandoning module Layers (364)
+[2017.04.10-11.31.32:542][523]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (362)
+[2017.04.10-11.31.32:542][523]LogModuleManager: Shutting down and abandoning module DetailCustomizations (360)
+[2017.04.10-11.31.32:557][523]LogModuleManager: Shutting down and abandoning module PackagesDialog (358)
+[2017.04.10-11.31.32:558][523]LogModuleManager: Shutting down and abandoning module Persona (356)
+[2017.04.10-11.31.32:564][523]LogModuleManager: Shutting down and abandoning module AnimGraph (355)
+[2017.04.10-11.31.32:564][523]LogModuleManager: Shutting down and abandoning module Kismet (352)
+[2017.04.10-11.31.32:568][523]LogModuleManager: Shutting down and abandoning module GraphEditor (350)
+[2017.04.10-11.31.32:603][523]LogModuleManager: Shutting down and abandoning module ClassViewer (348)
+[2017.04.10-11.31.32:604][523]LogModuleManager: Shutting down and abandoning module Toolbox (346)
+[2017.04.10-11.31.32:610][523]LogModuleManager: Shutting down and abandoning module ModuleUI (344)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module MovieSceneTools (342)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module OutputLog (340)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module GammaUI (338)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module Documentation (336)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module Niagara (334)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (332)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module AnalyticsET (330)
+[2017.04.10-11.31.32:613][523]LogModuleManager: Shutting down and abandoning module PortalServices (328)
+[2017.04.10-11.31.32:614][523]LogModuleManager: Shutting down and abandoning module PortalRpc (326)
+[2017.04.10-11.31.32:614][523]LogModuleManager: Shutting down and abandoning module MessagingRpc (324)
+[2017.04.10-11.31.32:614][523]LogModuleManager: Shutting down and abandoning module AIModule (322)
+[2017.04.10-11.31.32:614][523]LogModuleManager: Shutting down and abandoning module GameplayDebugger (321)
+[2017.04.10-11.31.32:617][523]LogModuleManager: Shutting down and abandoning module AITestSuite (319)
+[2017.04.10-11.31.32:617][523]LogModuleManager: Shutting down and abandoning module ProfilerService (316)
+[2017.04.10-11.31.32:731][523]LogModuleManager: Shutting down and abandoning module TaskGraph (314)
+[2017.04.10-11.31.32:816][523]LogModuleManager: Shutting down and abandoning module SubstanceEditor (312)
+[2017.04.10-11.31.32:847][523]LogModuleManager: Shutting down and abandoning module SteamVRController (310)
+[2017.04.10-11.31.32:847][523]LogModuleManager: Shutting down and abandoning module SteamVR (308)
+[2017.04.10-11.31.32:847][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (306)
+[2017.04.10-11.31.32:847][523]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (304)
+[2017.04.10-11.31.32:851][523]LogModuleManager: Shutting down and abandoning module OculusLibrary (302)
+[2017.04.10-11.31.32:851][523]LogModuleManager: Shutting down and abandoning module OculusInput (300)
+[2017.04.10-11.31.32:851][523]LogModuleManager: Shutting down and abandoning module Ansel (298)
+[2017.04.10-11.31.32:851][523]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (296)
+[2017.04.10-11.31.32:851][523]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (294)
+[2017.04.10-11.31.32:851][523]LogModuleManager: Shutting down and abandoning module CableComponent (292)
+[2017.04.10-11.31.32:858][523]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (290)
+[2017.04.10-11.31.32:858][523]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (286)
+[2017.04.10-11.31.32:876][523]LogModuleManager: Shutting down and abandoning module ToolbagImporter (284)
+[2017.04.10-11.31.32:876][523]LogModuleManager: Shutting down and abandoning module StereoPanorama (282)
+[2017.04.10-11.31.32:876][523]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.04.10-11.31.32:876][523]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.04.10-11.31.32:878][523]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.04.10-11.31.32:878][523]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.04.10-11.31.32:883][523]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.04.10-11.31.32:883][523]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.04.10-11.31.32:883][523]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.04.10-11.31.32:883][523]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.04.10-11.31.32:883][523]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.04.10-11.31.32:884][523]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.04.10-11.31.32:894][523]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.04.10-11.31.32:894][523]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.04.10-11.31.32:894][523]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.04.10-11.31.32:894][523]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.04.10-11.31.32:894][523]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.04.10-11.31.32:894][523]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.04.10-11.31.32:894][523]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.04.10-11.31.32:904][523]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.04.10-11.31.32:904][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.04.10-11.31.32:905][523]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.04.10-11.31.32:905][523]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.04.10-11.31.32:905][523]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.04.10-11.31.32:905][523]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.04.10-11.31.32:908][523]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.04.10-11.31.32:917][523]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.04.10-11.31.32:927][523]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.04.10-11.31.32:928][523]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.04.10-11.31.32:930][523]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.04.10-11.31.32:932][523]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.04.10-11.31.32:936][523]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.04.10-11.31.32:936][523]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.04.10-11.31.32:936][523]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.04.10-11.31.33:036][523]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.04.10-11.31.33:139][523]LogModuleManager: Shutting down and abandoning module SubstanceCore (214)
+[2017.04.10-11.31.33:157][523]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.10-11.31.33:164][523]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.10-11.31.33:178][523]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.10-11.31.33:178][523]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.10-11.31.33:178][523]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.10-11.31.33:183][523]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.10-11.31.33:189][523]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.10-11.31.33:225][523]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.10-11.31.33:225][523]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.10-11.31.33:225][523]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.10-11.31.33:227][523]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.10-11.31.33:227][523]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.10-11.31.33:227][523]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.10-11.31.33:255][523]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.10-11.31.33:256][523]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.10-11.31.33:263][523]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.10-11.31.33:285][523]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.10-11.31.33:310][523]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.10-11.31.33:322][523]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.10-11.31.33:349][523]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.10-11.31.33:349][523]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.10-11.31.33:349][523]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.10-11.31.33:363][523]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.10-11.31.33:363][523]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.10-11.31.33:370][523]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.10-11.31.33:374][523]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.10-11.31.33:374][523]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.10-11.31.33:374][523]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.10-11.31.33:374][523]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.10-11.31.33:374][523]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.10-11.31.33:493][523]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.10-11.31.33:493][523]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Student/Google Drive/School/afstuderen/3D/UE4/github/UE4_test/UE4_github_test/Content/' was aborted.
+[2017.04.10-11.31.33:493][523]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.10-11.31.33:493][523]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/ToolbagImporter/Content/' was aborted.
+[2017.04.10-11.31.33:500][523]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.10-11.31.33:501][523]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.10-11.31.33:501][523]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.10-11.31.33:501][523]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.10-11.31.33:501][523]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.10-11.31.33:507][523]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.10-11.31.33:507][523]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.10-11.31.33:509][523]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.10-11.31.33:509][523]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.10-11.31.33:606][523]LogDerivedDataCache: Shutdown
+[2017.04.10-11.31.33:606][523]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.10-11.31.33:606][523]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.10-11.31.33:613][523]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.10-11.31.33:615][523]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.10-11.31.33:616][523]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.10-11.31.33:620][523]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.10-11.31.33:620][523]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.10-11.31.33:620][523]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.10-11.31.33:620][523]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.10-11.31.33:627][523]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.10-11.31.33:631][523]LogHMD: Oculus shutdown.
+[2017.04.10-11.31.33:631][523]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.10-11.31.33:631][523]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.10-11.31.33:631][523]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.10-11.31.33:631][523]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.10-11.31.33:631][523]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.10-11.31.33:660][523]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.10-11.31.33:672][523]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.10-11.31.33:679][523]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.10-11.31.33:679][523]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC9882D5E-499D-9509-BF40-AC812530F8D2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=21bc3e55492317095c0ab1b62979f3eb%7C2addced0c46b4c28afd65b8ca3384632%7C00004daa-21d0-4963-b36a-c6ffd69e5ddd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.10-11.31.33:686][523]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.10-11.31.33:693][523]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.10-11.31.33:693][523]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.10-11.31.33:693][523]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.10-11.31.33:693][523]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.10-11.31.33:693][523]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.10-11.31.33:723][523]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.10-11.31.33:725][523]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.10-11.31.33:725][523]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.10-11.31.33:729][523]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.10-11.31.33:730][523]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.10-11.31.33:730][523]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.10-11.31.33:730][523]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.10-11.31.33:732][523]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.10-11.31.33:732][523]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.10-11.31.33:732][523]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.10-11.31.33:743][523]LogExit: Exiting.
+[2017.04.10-11.31.33:756][523]Log file closed, 04/10/17 13:31:33
