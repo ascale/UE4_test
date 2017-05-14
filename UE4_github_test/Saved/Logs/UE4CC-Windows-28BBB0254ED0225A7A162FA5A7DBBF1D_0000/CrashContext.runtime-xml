@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-28BBB0254ED0225A7A162FA5A7DBBF1D_0000</CrashGUID>
+		<ProcessId>19324</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-UE4_github_test</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.0-3299760+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;D:/Git/Alex Scale/UE4_github_test/UE4_github_test.uproject&quot;-EpicPortal</CommandLine>
+		<LanguageLCID>1043</LanguageLCID>
+		<AppDefaultLocale>nl_NL</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3299760</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Milan</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>079596CF43DD7385D8B32FB960A66FDF</MachineId>
+		<LoginId>079596cf43dd7385d8b32fb960a66fdf</LoginId>
+		<EpicAccountId>15c837a5dacb4a2c8f21c5e6b34588fd</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;LevelEditorViewport&quot; Label=&quot;Viewport 1&quot; Content=SViewportsOverlay</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: (FMath::Abs(1.f - M.GetScaledAxis(EAxis::X).SizeSquared()) &lt;= KINDA_SMALL_NUMBER) &amp;&amp; (FMath::Abs(1.f - M.GetScaledAxis(EAxis::Y).SizeSquared()) &lt;= KINDA_SMALL_NUMBER) &amp;&amp; (FMath::Abs(1.f - M.GetScaledAxis(EAxis::Z).SizeSquared()) &lt;= KINDA_SMALL_NUMBER) [File:d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\public\Math/Quat.h] [Line: 584] &nl;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17077772288</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>8732016640</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140733597270016</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1003769856</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1004331008</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>3127513088</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>3128352768</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636302019143760000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
